@@ -1,0 +1,45 @@
+.homeStuSpeak {
+    padding: 5rem 0;
+    padding-bottom: 1rem;
+    background: #347ee7;
+    color: #fff;
+    .homeStuSpeak__title {
+        padding: 2rem 0;
+        h2 {
+            text-transform: uppercase;
+            font-size: 2.5rem;
+        }
+    }
+    .homeStuSpeak__desc {
+        margin: 2rem 0;
+    }
+    .homeStuSpeak__imgBox {
+        width: 100%;
+        img {
+            width: inherit;
+        }
+    }
+    .quickInterested {
+        &__title {
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+        display: flex;
+        align-items: center;
+        padding: 3rem 0;
+        background: #003e96;
+        h2 {
+            text-transform: uppercase;
+            font-size: 2rem;
+        }
+    }
+    .quickInterested__compareDecideBtn {
+        padding: 1rem 5rem;
+        color: #fff;
+        text-transform: uppercase;
+        background: #347ee7;
+        font-size: 1.2rem;
+        border-radius: 0 0.5rem 0 0.5rem;
+    }
+}

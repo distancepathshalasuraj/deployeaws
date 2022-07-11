@@ -1,0 +1,44 @@
+.btn {
+    padding: 0.5rem 1.5rem;
+    border-radius: 0 0.4rem 0 0.4rem;
+    color: #fff;
+    //text-transform: uppercase;
+    overflow: hidden;
+    // hover
+    &:hover {
+        color: #fff;
+    }
+    &:focus {
+        box-shadow: none;
+    }
+    &__primary {
+        text-transform: uppercase;
+        background: #347ee7;
+        &:hover {
+            background-color: darken(#347ee7, 15%);
+        }
+        &:active {
+            background-color: darken(#347ee7, 7%);
+        }
+    }
+    &Compare {
+        background-color: #003e96;
+        img {
+            margin-right: 1rem;
+        }
+        padding: 0.3rem 2rem;
+    }
+    &AdvaceFilter {
+        img {
+            margin-right: 1rem;
+        }
+        span {
+            color: gray;
+        }
+        &:hover {
+            span {
+                color: black;
+            }
+        }
+    }
+}

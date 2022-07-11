@@ -1,0 +1,120 @@
+.homeFilterComparison {
+    background-color: #ececec;
+    padding-top: 2rem;
+    .homeFilterComparison__title {
+        color: #347ee7;
+        font-size: 1.9rem;
+        line-height: 2.5rem;
+        .highlight {
+            color: #023379;
+            position: relative;
+            &:before {
+                color: #023379;
+                content: "";
+                position: absolute;
+                bottom: -0.5rem;
+                left: 0;
+                width: 100%;
+                border: 0.01rem solid #347ee7;
+            }
+        }
+    }
+    .homeFilterComparison__body {
+        padding: 3rem 0;
+    }
+    // card
+    .homeFilterComparison-card {
+        width: 21rem;
+        position: relative;
+        .eclipse-1 {
+            border-radius: 50%;
+            height: 14rem;
+            width: 14rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .eclipse-2 {
+                height: 11rem;
+                width: 11rem;
+                background-color: #fff;
+                border-radius: 50%;
+                padding: 2.5rem;
+                display: flex;
+                align-items: flex-end;
+                box-shadow: 2px 2px 0 0 #eeeeee;
+                img {
+                    height: 2.5rem;
+                }
+            }
+        }
+        // text
+        .homeFilterComparison-card-text {
+            margin-left: 7rem;
+            position: absolute;
+            padding: 1rem;
+            content: "";
+            right: 0;
+            height: 7rem;
+            top: 0;
+            z-index: 1;
+            background-color: #ececec;
+            font-size: 0.7rem;
+        }
+    }
+    .homeFilterComparison-card-1 {
+        .eclipse-1 {
+            background-color: rgba(234, 222, 188, 1);
+        }
+    }
+    .homeFilterComparison-card-2 {
+        .eclipse-1 {
+            background-color: rgba(213, 234, 249, 1);
+            .eclipse-2 {
+                align-items: flex-start;
+                img {
+                    height: 3rem;
+                }
+            }
+        }
+        .homeFilterComparison-card-text {
+            margin-top: 7rem;
+        }
+    }
+    .homeFilterComparison-card-3 {
+        .eclipse-1 {
+            background-color: rgba(213, 234, 249, 1);
+            .eclipse-2 {
+                img {
+                    height: 3rem;
+                }
+            }
+        }
+    }
+}
+
+// find course btn
+.findCourse-bar {
+    padding: 2rem 0;
+    background-color: rgba(52, 126, 231, 1);
+    color: #fff;
+    .findCourse-bar-row {
+        padding: 0 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .findCourse-bar__btn {
+        background-color: #023379;
+        border: none;
+        border-radius: 0 0.3rem 0 0.3rem;
+        color: #fff;
+        padding: 1rem 4rem;
+        text-transform: uppercase;
+    }
+    .findCourse-bar__text {
+        height: 100%;
+        p {
+            font-size: 1.5rem;
+        }
+    }
+}

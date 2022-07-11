@@ -1,0 +1,17 @@
+.collegeList {
+    &-moreBtn-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 0;
+        button {
+            padding: 0.6rem 2.5rem;
+            background-color: #003e96;
+            color: #fff;
+            border: none;
+            text-transform: uppercase;
+            font-size: 1.1rem;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,64 @@
+.contactUs {
+    .contactUsBanner {
+        background: linear-gradient(180deg, #6bacf0 0%, #c791e2 52.6%, #d190e2 100%);
+        // height: 70vh;
+        padding: 5rem 0;
+        &__left {
+            img {
+                height: 30rem;
+            }
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding: 0 3rem;
+        }
+        &__right {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            // align-items: center;
+            justify-content: center;
+            &-title {
+                color: #fff;
+                margin: 2rem 0;
+                h2 {
+                    text-transform: uppercase;
+                }
+            }
+            &-detailSection {
+                * {
+                    color: #fff;
+                }
+                display: flex;
+                // align-items: center;
+                margin: 1.5rem 0;
+                // justify-content: center;
+                .imgBox {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    border: 0.2rem solid orange;
+                    // padding: 2rem;
+                    height: 6rem;
+                    width: 6rem;
+                    background-color: #fff;
+                    margin-right: 1rem;
+                    img {
+                        height: 2.5rem;
+                    }
+                }
+                .textBox {
+                    h3 {
+                        font-size: 1.5rem;
+                        text-transform: uppercase;
+                        margin-bottom: 0.7rem;
+                    }
+                    p {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,60 @@
+.homeMobileApp {
+    background-color: #ececec;
+    padding: 3rem 0;
+    .homeMobileApp__title {
+        color: #347ee7;
+        font-size: 1.9rem;
+        line-height: 2.5rem;
+        .highlight {
+            color: #023379;
+            position: relative;
+            &:before {
+                color: #023379;
+                content: "";
+                position: absolute;
+                bottom: -0.5rem;
+                left: 0;
+                width: 100%;
+                border: 0.01rem solid #347ee7;
+            }
+        }
+    }
+    .row {
+        position: relative;
+    }
+    .img_bg {
+        // height: 100%;
+        position: absolute;
+        z-index: 0;
+        width: 100%;
+    }
+    .homeMobileApp-left {
+        background-color: transparent;
+    }
+    .homeMobileApp-right {
+        z-index: 1;
+    }
+    .homeMobileApp__text {
+        margin: 2rem 0;
+        font-size: 1.2rem;
+    }
+    .homeMobileApp__list {
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            margin-bottom: 1rem;
+            position: relative;
+            padding-left: 3rem;
+            font-size: 1rem;
+            .icon-arrow {
+                position: absolute;
+                content: "";
+                left: 0.5rem;
+                height: 0.7rem;
+                top: 0.5rem;
+            }
+        }
+    }
+}

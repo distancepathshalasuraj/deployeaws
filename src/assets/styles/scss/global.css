@@ -1,0 +1,4639 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul[role="list"] {
+  list-style: none;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+input {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: unset;
+}
+
+.dropdown-menu li {
+  position: relative;
+}
+
+.dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -7px;
+}
+
+.dropdown-menu .dropdown-submenu-left {
+  right: 100%;
+  left: auto;
+}
+
+.dropdown-menu > li:hover > .dropdown-submenu {
+  display: block;
+}
+
+.tooltip-btn {
+  all: unset;
+  text-transform: lowercase;
+  border-radius: 50%;
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.5rem;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: -1rem;
+  right: 1rem;
+}
+/*code by suraj verma*/
+/* start */
+.header .top_strip .navbar .container{
+height: 56px;
+background: #212832;
+width: 100%;
+}
+.header .top_strip span{
+position: absolute;
+width: 314px;
+height: 18px;
+font-family: "Poppins",sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+color: #FFFFFF;
+margin-left: 101px;
+margin-top: 19px;
+margin-bottom: 19px;
+}
+.header .top_strip .navbar .container .social_box{
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 439px;
+  height: 18px;
+  color:#FFFFFF;
+  background-color: red;
+}
+
+.header .top_strip .header__socials li {
+  color: #fdfdfd;
+
+}
+
+
+.header .header__socials ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+    
+}
+
+.header .header__socials ul li {
+  width: 0.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+          
+          margin-right: 10px;
+          margin-top: -3px;
+}    
+.header .top_strip .navbar .container .top-right-menu
+{
+  position: absolute;
+  width: 217px;
+  height: 18px;
+  
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+  margin-left: 1123px;
+  margin-right: 100px;
+  background-color:red;
+  color: #FFFFFF; 
+}
+
+/*End*/
+.header .navbar {
+  padding: 0;
+}
+
+.header .nav-link {
+  padding: 1rem 0.7rem;
+}
+
+.header .header__top {
+  background: #347ee7;
+}
+
+.header .header__top * {
+  font-size: 1rem;
+}
+
+.header .header__top .nav-link {
+  color: #65cff4;
+  padding: 1rem 1rem;
+}
+
+.header .header__top .nav-link:hover {
+  background: #003e96;
+  color: #fff;
+}
+
+.header .header__top .nav-link.active {
+  background: #003e96;
+  color: #fff;
+}
+
+.header a.nav-link {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.header .header__navbar .nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-transform: uppercase;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .header__navbar .nav-link:hover {
+  background: lightgray;
+}
+
+.header .header__navbar .nav-link .nav-link-image {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 2rem;
+  margin-right: 0.5rem;
+}
+
+.header .header__navbar .nav-link .nav-link-image img {
+  height: 2rem;
+}
+
+.header .header__navbar .nav-link .nav-link-text {
+  font-size: 0.7rem;
+  color: #000;
+}
+
+.header .header__navbar .navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header__navbar .header__divider {
+  height: 3rem;
+  padding: 0 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .header__navbar .header__divider span {
+  height: 100%;
+  width: 0.1rem;
+  background: lightgray;
+}
+
+.header .header__navbar .header__compareWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem 0.7rem;
+}
+
+.header .header__navbar .compareBtn {
+  text-decoration: none;
+  border: none;
+  border-radius: 0;
+  border-bottom-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+  overflow: hidden;
+  background: #003e96;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+}
+
+.header .header__navbar .compareBtn__text {
+  padding: 0.5rem 0.7rem;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .header__navbar .compareBtn__text img {
+  height: 1.5rem;
+  margin-right: 0.3rem;
+}
+
+.header .header__navbar .compareBtn__count {
+  height: 100%;
+  padding: 0.5rem 0.7rem;
+  border-bottom-left-radius: 0.4rem;
+  background: #347ee7;
+}
+
+.header .brand {
+  height: 3.5rem;
+  margin: 0.5rem 0;
+}
+
+.header .dropdown-menu {
+  min-width: 15rem;
+}
+
+.header .dropdown-menu .dropdown-item {
+  border-bottom: 0.01rem solid #ebebeb;
+}
+
+.mulitilevelDropdown .dropdown-item {
+  padding: 0.7rem 1rem;
+  font-size: 0.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mulitilevelDropdown .has-dropdown:after {
+  display: inline-block;
+  margin-left: 0.5em;
+  vertical-align: 0.255em;
+  content: "";
+  border-left: 0.3em solid;
+  border-top: 0.3em solid transparent;
+  border-right: 0;
+  border-bottom: 0.3em solid transparent;
+}
+
+.mulitilevelDropdown .dropdown-submenu {
+  max-height: 24rem;
+  overflow-y: auto;
+  border-radius: 0;
+}
+
+.footerBlack {
+  padding: 3rem 0;
+  background: #000;
+}
+
+.footerBlack * {
+  color: #fff;
+}
+
+.footerBlack .footerBlack__brand img {
+  height: 7rem;
+  margin: 0.5rem 0;
+}
+
+.footerBlack .footerBlack__brand h2 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+
+.footerBlack .footerBlack__title {
+  margin-bottom: 1.5rem;
+}
+
+.footerBlack .footerBlack__body p {
+  line-height: 1.8rem;
+}
+
+.footerBlack .footerBlackSocials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footerBlack .footerBlackSocials div {
+  padding-right: 1rem;
+}
+
+.footerBlue {
+  padding: 3rem 0;
+  background: #347ee7;
+}
+
+.footerBlue * {
+  color: #fff;
+}
+
+.footerBlue .footerBlue__title {
+  height: 3rem;
+}
+
+.footerBlue .footerBlue__title h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.footerBlue .footerBlue__body {
+  min-height: 8rem;
+}
+
+.footerBlue .footerBlue__body ul {
+  padding-bottom: 1rem;
+  margin: 0;
+}
+
+.footerBlue .footerBlue__body ul li {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+.footerBlue .footerBlue__footer {
+  padding: 0.5rem 0;
+}
+
+.footerBlue .borderRight {
+  border-right: 0.05rem solid #fff;
+}
+
+.pageRights {
+  padding: 1rem 0;
+  background: #000;
+}
+
+.pageRights * {
+  color: #fff;
+}
+
+.footerSection__title {
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footerSection__titleText {
+  font-size: 1.5rem;
+}
+
+.footerSection__body {
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+.footerSection__body div {
+  height: 8rem;
+}
+
+.footerSectionUGPG .footerSection__title div {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.footerSectionUGPG .footerSection__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footerSectionUGPG .footerSection__body div {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.footerSectionUGPG .footerSection__body .borderRight {
+  border-right: 0.05rem solid #fff;
+}
+
+.btn {
+  padding: 0.5rem 1.5rem;
+  border-radius: 0 0.4rem 0 0.4rem;
+  color: #fff;
+  overflow: hidden;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn__primary {
+  text-transform: uppercase;
+  background: #347ee7;
+}
+
+.btn__primary:hover {
+  background-color: #1659b9;
+}
+
+.btn__primary:active {
+  background-color: #1a6bdd;
+}
+
+.btnCompare {
+  background-color: #003e96;
+  padding: 0.3rem 2rem;
+}
+
+.btnCompare img {
+  margin-right: 1rem;
+}
+
+.btnAdvaceFilter img {
+  margin-right: 1rem;
+}
+
+.btnAdvaceFilter span {
+  color: gray;
+}
+
+.btnAdvaceFilter:hover span {
+  color: black;
+}
+
+.advanceFilter {
+  background-color: whitesmoke;
+  padding: 1.5rem 0;
+}
+
+.advanceFilter .btn {
+  padding: 0.5rem;
+}
+
+.advanceFilter .btn img {
+  height: 70%;
+}
+
+.advanceFilter__result {
+  margin-right: 1rem;
+}
+
+.advanceFilter__result p {
+  color: darkgray;
+  font-weight: light;
+}
+
+.advanceFilter .advanceFilter__boxLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.advanceFilter .advanceFilter__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.advanceFilter .advanceFilter__boxRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.advanceFilter .advanceFilter__boxRight .advanceFilter__filterMenuIcon {
+  margin-right: 1rem;
+}
+
+.advanceFilter__filterBox {
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-in-out;
+  transition: max-height 0.2s ease-in-out;
+}
+
+.advanceFilter__filterBox > div {
+  margin-top: 0.8rem;
+  padding: 1.7rem 1.5rem;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 1rem 0 #e5e5e5;
+          box-shadow: 0 0 1rem 0 #e5e5e5;
+  border-radius: 0.5rem;
+}
+
+.advanceFilter__filterBox h3 {
+  text-transform: uppercase;
+  color: #347ee7;
+  color: 0.8rem;
+  font-size: 0.8rem;
+}
+
+.advanceFilter__filterBox .section > div {
+  margin-top: 0.8rem;
+}
+
+.advanceFilter__filterBox .section .range__minMax {
+  padding-top: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 0.7rem;
+}
+
+.advanceFilter__filterBox .section .input-location {
+  border: none;
+  border-bottom: 0.05rem solid lightgray;
+}
+
+.advanceFilter__filterBox .applyBtn {
+  background-color: #347ee7;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  padding: 0.3rem 4rem;
+}
+
+.homeBanner {
+  background: #e1f1f8;
+}
+
+.homeBanner .homeBanner__imgBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 4rem;
+}
+
+.homeBanner__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 6rem 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.homeBanner__iconBox-wrap {
+  text-align: center;
+}
+
+.homeBanner__iconBox-wrap span {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+  display: block;
+  font-weight: 500;
+}
+
+.homeBanner__iconBox {
+  padding: 0 1rem;
+}
+
+.homeBanner__iconBox img {
+  height: 5.5rem;
+}
+
+.homeBanner__formLeft {
+  background: #347ee7;
+  padding: 3rem;
+  text-transform: uppercase;
+  border-top-left-radius: 4rem;
+  border-bottom-left-radius: 4rem;
+}
+
+.homeBanner__formRight {
+  padding: 3rem;
+  background-color: #003e96;
+  border-top-right-radius: 6rem;
+  border-bottom-right-radius: 6rem;
+}
+
+.homeBanner__formRight .form-select {
+  margin: 1rem 0;
+}
+
+.homeBanner__textLight {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.homeBanner__textDark {
+  font-size: 2rem;
+  color: #101010;
+  margin-bottom: 0;
+}
+
+.homeBanner__textLight, .homeBanner__textDark {
+  font-size: 1.65rem;
+}
+
+.bannerProcessBack {
+  background: #ececec;
+  position: relative;
+}
+
+.bannerProcessBack__img {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  height: 70%;
+  height: 59%;
+  -webkit-transform: translateY(-64%);
+          transform: translateY(-64%);
+}
+
+.bannerProcessBack .homeBanner__right {
+  z-index: 1;
+}
+
+.homeBanner__iconBox {
+  height: 6rem;
+  width: 6rem;
+  border: 0.3rem solid #fff;
+  border-radius: 50%;
+  background-color: lightgray;
+  padding: 1.7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 0.5rem;
+}
+
+.homeProcess__title {
+  margin: 4rem 0;
+  text-align: center;
+}
+
+.homeProcess__title h2 {
+  text-transform: uppercase;
+  color: #347ee7;
+}
+
+.homeProcess__titleDark {
+  color: #101010;
+}
+
+.homeProcess .homeProcess__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin: 2rem 0;
+}
+
+.homeProcess .homeProcess__card {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%;
+  padding: 1.5rem;
+}
+
+.homeProcess .homeProcess__card .homeProcess__card-title h3 {
+  font-size: 1.3rem;
+  margin: 0.7rem 0;
+  text-transform: uppercase;
+  color: #347ee7;
+  font-weight: 600;
+}
+
+.homeProcess .homeProcess__card .homeProcess__cardContent {
+  border-radius: 3rem 4rem 3rem 3rem;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+}
+
+.homeProcess .homeProcess__card .homeProcess__cardContent .homeProcess__cardHead {
+  min-width: 2.5rem;
+  background: #76a8ec;
+  color: #fff;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: upright;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  padding: 1rem 0;
+}
+
+.homeProcess .homeProcess__card .homeProcess__cardContent .homeProcess__cardHead h3 {
+  font-size: 0.8rem;
+}
+
+.homeProcess .homeProcess__card .homeProcess__cardContent .homeProcess__cardBody {
+  padding: 1rem 1.5rem 0rem 0.5rem;
+  color: darkgray;
+  height: 15rem;
+  min-height: 15rem;
+  position: relative;
+}
+
+.homeProcess .homeProcess__card .homeProcess__cardContent .homeProcess__cardBody p {
+  font-size: 0.85rem;
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+
+.homeProcess .homeProcess__card .homeProcess__cardContent .homeProcess__cardImgBox {
+  padding: 0.7rem 0;
+  position: absolute;
+  right: 1rem;
+  bottom: 0;
+}
+
+.homeProcess .homeProcess__cardCenter {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%;
+  padding: 1.5rem;
+}
+
+.homeProcess .homeProcess__cardCenter .homeProcess__cardContent {
+  background: #76a8ec;
+  padding: 2rem 0.7rem;
+  padding-top: 4rem;
+  border-radius: 2.5rem;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  height: 15rem;
+  min-height: 15rem;
+}
+
+.homeProcess .homeProcess__cardCenter .homeProcess__cardContent p {
+  font-size: 0.85rem;
+}
+
+.homeProcess .homeProcess__cardCenter .homeProcess__cardContent .homeProcess__cardHead {
+  text-transform: uppercase;
+  margin: 1.5rem 0;
+}
+
+.homeProcess .homeProcess__cardCenter .homeProcess__cardContent .homeProcess__cardHead h3 {
+  font-size: 1.2rem;
+}
+
+.homeProcess .homeProcess__cardCenter .homeProcess__cardContent .homeProcess__cardImgBox {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 50%;
+  padding: 1.5rem;
+  background: #fff;
+}
+
+.homeProcess .homeProcess__cardCenter .homeProcess__cardContent .homeProcess__cardImgBox img {
+  height: 2.5rem;
+}
+
+.homeCompare {
+  margin: 5rem 0;
+}
+
+.homeCompare__title {
+  margin: 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.compareCard {
+  border-radius: 1rem;
+  overflow: hidden;
+  margin: 1rem 0.5rem;
+  -webkit-box-shadow: 0 0 0.8rem 0.1rem lightgray;
+          box-shadow: 0 0 0.8rem 0.1rem lightgray;
+}
+
+.compareCard__title {
+  background: #e1f1f8;
+  padding: 1.5rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  min-height: 8rem;
+  overflow: hidden;
+}
+
+.compareCard__title div {
+  text-align: center;
+  color: #003e96;
+  font-weight: bold;
+}
+
+.compareCard__title h3 {
+  font-size: 1.3rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.compareCard__title span {
+  font-size: 0.8rem;
+  color: darkgray;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.compareCard__compareCheckbox {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+.compareCard__body {
+  padding: 0 1rem;
+}
+
+.compareCard__rowDetail + .compareCard__rowDetail {
+  border-top: 0.05rem dotted darkgray;
+}
+
+.compareCard__rowDetail {
+  padding: 0.7rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 4.5rem;
+  overflow: hidden;
+}
+
+.compareCard__detailBox {
+  padding-right: 0.5rem;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.compareCard__detailHead {
+  padding: 0.2rem 0;
+}
+
+.compareCard__detailHead h4 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #347ee7;
+}
+
+.compareCard__detailDesc p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #858585;
+  font-weight: lighter;
+}
+
+.compareCard__feeBox {
+  background: #e1f1f8;
+  padding: 0.8rem 0;
+  text-align: center;
+}
+
+.compareCard__feeBox p {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+.compareCard__btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.compareCard__btnBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5rem 0;
+}
+
+.compareCard__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0 0.5rem 0.5rem 0.5rem;
+  color: #fff;
+}
+
+.compareCard__compareBtn {
+  background: #003e96;
+  color: #fff;
+}
+
+.compareCard__compareBtn--active {
+  background: lightgray;
+  color: #003e96 !important;
+}
+
+.compareCard__detailBtn {
+  background: #347ee7;
+}
+
+.compareCard__applyBtn {
+  background: #20a46c;
+}
+
+.compareCard .headDark {
+  color: #000 !important;
+  text-transform: unset;
+}
+
+.homeExpert {
+  margin: 5rem 0;
+}
+
+.homeExpert .homeExpert__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.homeExpert .homeExpert__imgBox img {
+  height: 28rem;
+}
+
+.homeExpert__Right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /* align-items: center; */
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+.homeExpert__title h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.homeExpert__title h2 span:first-child {
+  color: #003e96;
+}
+
+.homeExpert__title h2 span:last-child {
+  color: #347ee7;
+}
+
+.homeExpert__listItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.homeExpert .homeExpert__listItem {
+  padding: 1.5rem 0;
+}
+
+.homeExpert .homeExpert__itemCount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.5rem;
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  margin-right: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.homeExpert .homeExpert__itemCount1 {
+  background: #e69af2;
+}
+
+.homeExpert .homeExpert__itemCount2 {
+  background: #65cff4;
+}
+
+.homeExpert .homeExpert__itemCount3 {
+  background: #76a8ec;
+}
+
+.homeExpert .homeExpert__itemText p {
+  font-size: 1.4rem;
+}
+
+.homeQuickInrst {
+  padding: 2rem 0;
+  background: #347ee7;
+  color: #fff;
+}
+
+.homeQuickInrst .homeQuickInrst__leftHead h2 {
+  text-transform: uppercase;
+}
+
+.homeQuickInrst .homeQuickInrst__findYourCourseBtn {
+  padding: 1.5rem 5rem;
+  color: #fff;
+  text-transform: uppercase;
+  background: #003e96;
+  font-size: 1.2rem;
+  border-radius: 0 0.5rem 0 0.5rem;
+}
+
+.homeKnowExpert {
+  padding: 5rem 0;
+}
+
+.homeKnowExpert .homeKnowExpert__imgBox img {
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+}
+
+.homeKnowExpert__title h2 {
+  color: #000;
+}
+
+.homeKnowExpert__title h2 span:first-child {
+  font-size: 1.7rem;
+  color: #347ee7;
+  font-weight: light;
+}
+
+.homeKnowExpert__title h2 span:last-child {
+  font-size: 3rem;
+}
+
+.homeKnowExpert__text {
+  padding: 1rem 0;
+  color: darkgray;
+}
+
+.homeKnowExpert__text p {
+  font-size: 1.2rem;
+}
+
+.homeKnowExpert__btnBox {
+  margin: 1rem 0;
+}
+
+.homeKnowExpert__knowMoreBtn {
+  padding: 1rem 5rem;
+  color: #fff;
+  text-transform: uppercase;
+  background: #347ee7;
+  font-size: 1.2rem;
+  border-radius: 0 0.5rem 0 0.5rem;
+}
+
+.homeStartEdu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.homeStartEdu .homeStartEdu__blankLeft {
+  min-width: 8rem;
+}
+
+.homeStartEdu .homeStartEdu__blankLeft div:first-child {
+  height: 40%;
+}
+
+.homeStartEdu .homeStartEdu__blankLeft div:last-child {
+  height: 60%;
+  background-color: #347ee7;
+  width: 100%;
+}
+
+.homeStartEdu .homeStartEdu__box {
+  padding: 4rem 0;
+}
+
+.homeStartEdu .homeStartEdu__imgBox {
+  padding: 2rem;
+}
+
+.homeStartEdu__box {
+  background: #fff;
+  -webkit-box-shadow: 0 0 1rem 0.1rem lightgray;
+          box-shadow: 0 0 1rem 0.1rem lightgray;
+}
+
+.homeStartEdu__yTube {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.homeStartEdu__yTube > div {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.homeStartEdu__yTube .left {
+  padding: 1rem 0.5rem;
+}
+
+.homeStartEdu__yTube .left p {
+  color: darkgray;
+}
+
+.homeStartEdu__yTubeFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.homeStartEdu__yTubeFooter h3 {
+  font-size: 1.5rem;
+}
+
+.homeStartEdu__yTubeFooter p {
+  margin: 1rem 0;
+  color: darkgray;
+}
+
+.homeStartEdu__yTubeFooter div {
+  padding-right: 0.5rem;
+}
+
+.homeStartEdu__title {
+  margin-top: 5rem;
+}
+
+.homeStartEdu__title h2 {
+  color: #000;
+}
+
+.homeStartEdu__title h2 span:first-child {
+  font-size: 1.3rem;
+  color: #347ee7;
+  font-weight: light;
+}
+
+.homeStartEdu__title h2 span:last-child {
+  font-size: 2.7rem;
+}
+
+.homeStartEdu__text {
+  padding: 1rem 0;
+  color: darkgray;
+}
+
+.homeStartEdu__text p {
+  font-size: 1.2rem;
+}
+
+.homeStartEdu__btnBox {
+  margin: 1rem 0;
+}
+
+.homeStartEdu__knowMoreBtn {
+  padding: 1rem 5rem;
+  color: #fff;
+  text-transform: uppercase;
+  background: #347ee7;
+  font-size: 1.2rem;
+  border-radius: 0 0.5rem 0 0.5rem;
+}
+
+.homeStartEdu .homeStartEdu__yTubeImgBox {
+  padding: 2.5rem;
+  margin-top: 3rem;
+  padding-left: 0;
+}
+
+.homeStuSpeak {
+  padding: 5rem 0;
+  padding-bottom: 1rem;
+  background: #347ee7;
+  color: #fff;
+}
+
+.homeStuSpeak .homeStuSpeak__title {
+  padding: 2rem 0;
+}
+
+.homeStuSpeak .homeStuSpeak__title h2 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+
+.homeStuSpeak .homeStuSpeak__desc {
+  margin: 2rem 0;
+}
+
+.homeStuSpeak .homeStuSpeak__imgBox {
+  width: 100%;
+}
+
+.homeStuSpeak .homeStuSpeak__imgBox img {
+  width: inherit;
+}
+
+.homeStuSpeak .quickInterested {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3rem 0;
+  background: #003e96;
+}
+
+.homeStuSpeak .quickInterested__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.homeStuSpeak .quickInterested h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.homeStuSpeak .quickInterested__compareDecideBtn {
+  padding: 1rem 5rem;
+  color: #fff;
+  text-transform: uppercase;
+  background: #347ee7;
+  font-size: 1.2rem;
+  border-radius: 0 0.5rem 0 0.5rem;
+}
+
+.homeNewsBlog {
+  background: #e7e7e7;
+  padding: 5rem 0;
+}
+
+.homeNewsBlog .homeNewsBlog__title h2 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+
+.homeNewsBlog .homeNewsBlog__body {
+  margin-top: 4rem;
+  margin-right: 3rem;
+}
+
+.homeNewsBlog .homeNewsBlog__newsHead h3 {
+  font-size: 1.5rem;
+}
+
+.homeNewsBlog .homeNewsBlog__newsItem {
+  padding: 2rem 0;
+}
+
+.homeNewsBlog .homeNewsBlog__date {
+  padding: 1.5rem 0;
+}
+
+.homeNewsBlog .homeNewsBlog__date span {
+  color: #003e96;
+}
+
+.homeNewsBlog .homeNewsBlog__newsDesc p {
+  color: darkgray;
+}
+
+.homeNewsBlog .blogDate {
+  padding: 0.5rem 0;
+}
+
+.homeNewsBlog .blogWhiteBody {
+  background: #fff;
+}
+
+.homeNewsBlog .homeNewsBlog__blogHead h3 {
+  font-size: 1.1rem;
+}
+
+.homeNewsBlog .homeNewsBlog__blogItem {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.homeNewsBlog .homeNewsBlog__blogImgBox {
+  padding-right: 1rem;
+}
+
+.homeCourses {
+  position: relative;
+}
+
+.homeCourses .homeCourses__body-bg {
+  position: absolute;
+  content: "";
+  height: 100%;
+  right: 8rem;
+  top: 2rem;
+}
+
+.homeCourses .homeCourses-box {
+  position: relative;
+}
+
+.homeCourses .homeCourses__title {
+  color: #347ee7;
+  font-size: 1.9rem;
+  line-height: 2.5rem;
+}
+
+.homeCourses .homeCourses__title .highlight {
+  color: #023379;
+  position: relative;
+}
+
+.homeCourses .homeCourses__title .highlight:before {
+  color: #023379;
+  content: "";
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  width: 100%;
+  border: 0.01rem solid #347ee7;
+}
+
+.homeCourses__listHead {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.homeCourses__listHead .icon {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  background-color: #347ee7;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: none;
+}
+
+.homeCourses__listHead .icon img {
+  height: 0.5rem;
+}
+
+.homeCourses__listHead--active .icon {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+
+.homeCourses .homeCourses__body {
+  padding-top: 2rem;
+  position: relative;
+}
+
+.homeCourses .titleInContent {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  font-weight: normal;
+}
+
+.homeCourses .titleInContent span {
+  color: #023379;
+}
+
+.homeCourses .homeCourses__cards {
+  padding-top: 2rem;
+}
+
+.homeCourses .homeCourses-card {
+  margin: 0.5rem 0;
+  position: relative;
+}
+
+.homeCourses .homeCourses-card .homeCourses-card__title {
+  position: absolute;
+  z-index: 1;
+  width: 70%;
+  background-color: #347ee7;
+  color: #fff;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+.homeCourses .homeCourses-card .homeCourses-card__title h3 {
+  font-size: 1rem;
+}
+
+.homeCourses .homeCourses-card .homeCourses-card__body-box {
+  padding-top: 1rem;
+}
+
+.homeCourses .homeCourses-card .homeCourses-card__body {
+  padding: 3rem 1rem 1rem 1rem;
+  background-color: #dff1ff;
+  border-radius: 0.3rem;
+  height: 14rem;
+  min-height: 12rem;
+}
+
+.homeCourses .homeCourses-card .homeCourses-card__body p {
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.homeCourses .homeCourses-card .homeCourses-card__body .icon-arrow {
+  position: absolute;
+  content: "";
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.homeCourses .homeCourses-bar {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 0.4rem 0.4rem 0 0;
+}
+
+.homeCourses .homeCourses-bar img {
+  height: 2rem;
+}
+
+.homeCourses .homeCourses-bar p {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.6rem;
+}
+
+.homeCourses .col-bars {
+  height: 100%;
+}
+
+.homeCourses .col-bars > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.homeCourses .homeCourses-bar--level-1 {
+  height: 60%;
+  background-color: rgba(228, 228, 228, 0.445);
+}
+
+.homeCourses .homeCourses-bar--level-2 {
+  height: 70%;
+  background-color: rgba(139, 166, 242, 0.541);
+}
+
+.homeCourses .homeCourses-bar--level-3 {
+  height: 80%;
+  background-color: rgba(218, 193, 123, 0.486);
+}
+
+.homeCourses .homeCourses-bar--level-4 {
+  height: 90%;
+  background-color: rgba(171, 212, 243, 0.486);
+}
+
+.homeCourses .homeCourses-bar--level-5 {
+  background-color: rgba(101, 206, 244, 0.472);
+}
+
+.homeFilterComparison {
+  background-color: #ececec;
+  padding-top: 2rem;
+}
+
+.homeFilterComparison .homeFilterComparison__title {
+  color: #347ee7;
+  font-size: 1.9rem;
+  line-height: 2.5rem;
+}
+
+.homeFilterComparison .homeFilterComparison__title .highlight {
+  color: #023379;
+  position: relative;
+}
+
+.homeFilterComparison .homeFilterComparison__title .highlight:before {
+  color: #023379;
+  content: "";
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  width: 100%;
+  border: 0.01rem solid #347ee7;
+}
+
+.homeFilterComparison .homeFilterComparison__body {
+  padding: 3rem 0;
+}
+
+.homeFilterComparison .homeFilterComparison-card {
+  width: 21rem;
+  position: relative;
+}
+
+.homeFilterComparison .homeFilterComparison-card .eclipse-1 {
+  border-radius: 50%;
+  height: 14rem;
+  width: 14rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.homeFilterComparison .homeFilterComparison-card .eclipse-1 .eclipse-2 {
+  height: 11rem;
+  width: 11rem;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-shadow: 2px 2px 0 0 #eeeeee;
+          box-shadow: 2px 2px 0 0 #eeeeee;
+}
+
+.homeFilterComparison .homeFilterComparison-card .eclipse-1 .eclipse-2 img {
+  height: 2.5rem;
+}
+
+.homeFilterComparison .homeFilterComparison-card .homeFilterComparison-card-text {
+  margin-left: 7rem;
+  position: absolute;
+  padding: 1rem;
+  content: "";
+  right: 0;
+  height: 7rem;
+  top: 0;
+  z-index: 1;
+  background-color: #ececec;
+  font-size: 0.7rem;
+}
+
+.homeFilterComparison .homeFilterComparison-card-1 .eclipse-1 {
+  background-color: #eadebc;
+}
+
+.homeFilterComparison .homeFilterComparison-card-2 .eclipse-1 {
+  background-color: #d5eaf9;
+}
+
+.homeFilterComparison .homeFilterComparison-card-2 .eclipse-1 .eclipse-2 {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.homeFilterComparison .homeFilterComparison-card-2 .eclipse-1 .eclipse-2 img {
+  height: 3rem;
+}
+
+.homeFilterComparison .homeFilterComparison-card-2 .homeFilterComparison-card-text {
+  margin-top: 7rem;
+}
+
+.homeFilterComparison .homeFilterComparison-card-3 .eclipse-1 {
+  background-color: #d5eaf9;
+}
+
+.homeFilterComparison .homeFilterComparison-card-3 .eclipse-1 .eclipse-2 img {
+  height: 3rem;
+}
+
+.findCourse-bar {
+  padding: 2rem 0;
+  background-color: #347ee7;
+  color: #fff;
+}
+
+.findCourse-bar .findCourse-bar-row {
+  padding: 0 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.findCourse-bar .findCourse-bar__btn {
+  background-color: #023379;
+  border: none;
+  border-radius: 0 0.3rem 0 0.3rem;
+  color: #fff;
+  padding: 1rem 4rem;
+  text-transform: uppercase;
+}
+
+.findCourse-bar .findCourse-bar__text {
+  height: 100%;
+}
+
+.findCourse-bar .findCourse-bar__text p {
+  font-size: 1.5rem;
+}
+
+.homeMobileApp {
+  background-color: #ececec;
+  padding: 3rem 0;
+}
+
+.homeMobileApp .homeMobileApp__title {
+  color: #347ee7;
+  font-size: 1.9rem;
+  line-height: 2.5rem;
+}
+
+.homeMobileApp .homeMobileApp__title .highlight {
+  color: #023379;
+  position: relative;
+}
+
+.homeMobileApp .homeMobileApp__title .highlight:before {
+  color: #023379;
+  content: "";
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  width: 100%;
+  border: 0.01rem solid #347ee7;
+}
+
+.homeMobileApp .row {
+  position: relative;
+}
+
+.homeMobileApp .img_bg {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+}
+
+.homeMobileApp .homeMobileApp-left {
+  background-color: transparent;
+}
+
+.homeMobileApp .homeMobileApp-right {
+  z-index: 1;
+}
+
+.homeMobileApp .homeMobileApp__text {
+  margin: 2rem 0;
+  font-size: 1.2rem;
+}
+
+.homeMobileApp .homeMobileApp__list ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.homeMobileApp .homeMobileApp__list ul li {
+  margin-bottom: 1rem;
+  position: relative;
+  padding-left: 3rem;
+  font-size: 1rem;
+}
+
+.homeMobileApp .homeMobileApp__list ul li .icon-arrow {
+  position: absolute;
+  content: "";
+  left: 0.5rem;
+  height: 0.7rem;
+  top: 0.5rem;
+}
+
+.compareFindFilter {
+  background: #65cff4;
+}
+
+.compareFindFilter__title {
+  padding: 1rem 0 0.5rem 0;
+}
+
+.compareFindFilter__body {
+  padding: 0.5rem 0 2rem 0;
+  width: 100%;
+}
+
+.compareFindFilter__filters {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.compareFindFilter__filters > div {
+  padding-right: 1rem;
+}
+
+.compareSelect {
+  background-color: #f0f0f0;
+  padding: 3rem 0;
+}
+
+.compareSelect__title {
+  margin-bottom: 1.5rem;
+}
+
+.compareSelect__title p {
+  font-weight: light;
+}
+
+.compareSelect .compareSelect__boxs {
+  padding-left: 12%;
+  margin-bottom: 2rem;
+}
+
+.compareSelect .compareSelect__footer {
+  padding: 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.compareSelect .compareSelect__startBox {
+  margin: 2rem 0;
+}
+
+.compareSelect .compareSelect__start {
+  position: relative;
+}
+
+.compareSelect .compareSelect__start p {
+  position: absolute;
+  left: 0.5rem;
+  bottom: 2.5rem;
+}
+
+.compareSelect .compareSelect__blank {
+  height: 50vh;
+}
+
+.compareSelectBox {
+  background-color: #fff;
+  border-radius: 3rem 1rem 1rem 1rem;
+  -webkit-box-shadow: 0 0 1rem 0 lightgray;
+          box-shadow: 0 0 1rem 0 lightgray;
+  height: 16rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.compareSelectBox .compareSelectBox__addBtnBox {
+  position: absolute;
+  top: -0.5rem;
+}
+
+.compareSelectBox .compareSelectBox__top {
+  padding: 1.5rem;
+}
+
+.compareSelectBox .compareSelectBox__top p {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.compareSelectBox .compareSelectBox__low {
+  padding: 1.5rem;
+}
+
+.compareSelectBox .compareSelectBox__low p {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.compareSelectBox .compareSelectBox__removeBtnBox {
+  position: absolute;
+  top: 0.2rem;
+  right: 0.2rem;
+}
+
+.compareSelectBox .compareSelectBox__removeBtnBox .compareSelectBox__removeBtn {
+  background: #eeeeee;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 50%;
+  height: 1.7rem;
+  width: 1.7rem;
+  font-weight: bold;
+  color: #dc3545;
+}
+
+.compareSelectBox .compareSelectBox__removeBtnBox .compareSelectBox__removeBtn:hover {
+  background: #e2e2e2;
+}
+
+.compareSelectBox__top {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.3%;
+          flex: 0 0 33.3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.compareSelectBox__top p {
+  font-weight: light;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.compareSelectBox__mid {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.3%;
+          flex: 0 0 33.3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.compareSelectBox__mid .compareSelectBox__circle {
+  z-index: 1;
+  background-color: #fff;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  border: 0.05rem solid lightgray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.compareSelectBox__mid .compareSelectBox__circle .compareSelectBox__circleText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.compareSelectBox__mid .compareSelectBox__circle .compareSelectBox__circleText img {
+  height: 2.5rem;
+}
+
+.compareSelectBox__mid .compareSelectBox__circle .compareSelectBox__circleText p {
+  position: absolute;
+  content: "+";
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.compareSelectBox__low {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.3%;
+          flex: 0 0 33.3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.compareSelectBox__low .compareSelectBox__count p {
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+
+.compareSelectBox__low .compareSelectBox__Text p {
+  font-weight: light;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.compareSelectBox::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50%;
+  width: 100%;
+  border-radius: 3rem 1rem 0rem 0rem;
+  -webkit-box-shadow: 0 0 1rem 0 lightgrey;
+          box-shadow: 0 0 1rem 0 lightgrey;
+}
+
+.compareCollege {
+  background-color: #f0f0f0;
+  padding: 2rem 0;
+}
+
+.visibility-hidden {
+  opacity: 0;
+}
+
+.compareCollege-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 0.1rem;
+}
+
+.compareCollege-section__title {
+  width: 12%;
+  border: 0.2rem solid #fff;
+  background-color: rgba(168, 232, 255, 0.34);
+  -webkit-box-shadow: 0px 6px 30px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 6px 30px 2px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem 1rem;
+  border-radius: 0.5rem 0 0 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.compareCollege-section__title span {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.compareCollege-section__body {
+  width: 88%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.compareCollege-section__body-item {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 0.3rem;
+  background-color: #fff;
+  border-radius: 0.1rem;
+  -webkit-box-shadow: 0px 6px 30px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 6px 30px 2px rgba(0, 0, 0, 0.05);
+  font-size: 0.8rem;
+}
+
+.compareCollege-section__body-item1 {
+  margin-left: 0;
+}
+
+.compareCollege-section__body-toppest {
+  border-radius: 0.4rem 0.4rem 0 0;
+}
+
+.collegeTitle {
+  padding: 1.7rem 1rem;
+  position: relative;
+}
+
+.collegeTitle-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.collegeTitle__imgBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 0.5rem;
+}
+
+.collegeTitle__imgBox img {
+  height: 2rem;
+}
+
+.collegeTitle__name {
+  padding: 0.3rem;
+  font-size: 0.8rem;
+  width: 60%;
+}
+
+.collegeTitle-otherInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+
+.collegeTitle__infoBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.collegeTitle__iconBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 0.3rem;
+}
+
+.collegeTitle__iconBox img {
+  height: 1.5rem;
+}
+
+.collegeTitle__iconText {
+  font-size: 0.7rem;
+}
+
+.collegeTitle .icon__close {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+}
+
+.collegeMode {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.collegeMode__divider {
+  margin: 0.5rem 0;
+  border: 0.05rem dotted darkgray;
+}
+
+.collegeMode__type {
+  text-transform: uppercase;
+}
+
+.collegeApproved {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+}
+
+.collegeApproved__item {
+  text-align: center;
+  padding: 0 0.2rem;
+}
+
+.collegeApproved__item-text {
+  margin-bottom: 0.3rem;
+  display: block;
+}
+
+.collegeApproved__item img {
+  height: 1rem;
+}
+
+.collegeFee {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.collegeFee__divider {
+  margin: 0.5rem 0;
+  border: 0.05rem dotted darkgray;
+}
+
+.collegeFee__min span {
+  color: #63c563;
+  font-weight: bold;
+}
+
+.collegeFee__max span {
+  color: #135fc2;
+  font-weight: bold;
+}
+
+.collegeSession {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.collegeSession__divider {
+  margin: 0.5rem 0;
+  border: 0.05rem dotted darkgray;
+}
+
+.compareCollege-section-footer .compareCollege-section__title {
+  visibility: hidden;
+}
+
+.compareCollege-section-footer .compareCollege-section__body-item {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 0;
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
+}
+
+.compareCollege-section-footer .compareCollege-section-btn {
+  display: block;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0 0 0.6rem 0.6rem;
+  font-size: 0.9rem;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.compareCollege-section-footer .compareCollege-section-btn__moreDetail {
+  background-color: #347ee7;
+  margin-right: 0.7rem;
+}
+
+.compareCollege-section-footer .compareCollege-section-btn__apply {
+  background-color: #20a46c;
+}
+
+.compareCollege-section-footer .compareCollege-section__btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.compareOther .compareSelectBox {
+  width: 85%;
+}
+
+.compareOther .compareOther-title {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.compareOther .compareOther-title h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.compareOther .compareOther-body {
+  margin: 3rem 0;
+}
+
+.compareOther .compareOtherBtn {
+  color: #fff;
+  background-color: #003e96;
+  padding: 0rem 2rem;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.compareOther .compareOtherBtn span {
+  margin-left: 0.5rem;
+}
+
+.compareOther .compareOther-footer {
+  margin: 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.compareTalkExpert {
+  background-color: #003e96;
+  padding: 3rem 0;
+}
+
+.compareTalkExpert .compareTalkExpert__title {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.compareTalkExpert .compareTalkExpert__title h2 {
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+}
+
+.compareTalkExpert .compareTalkExpert__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.compareTalkExpert .compareTalkExpert__item .compareTalkExpert__Itemcount {
+  padding: 1.2rem;
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  background-color: #e69af2;
+  margin-right: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.compareTalkExpert .compareTalkExpert__item .compareTalkExpert__Itemcount p {
+  font-size: 2rem;
+}
+
+.compareTalkExpert .compareTalkExpert__item .compareTalkExpert__itemText p {
+  font-size: 1.8rem;
+}
+
+.compareTalkExpert .compareTalkExpert__item1 .compareTalkExpert__Itemcount {
+  background-color: #e69af2;
+}
+
+.compareTalkExpert .compareTalkExpert__item1 .compareTalkExpert__itemText p {
+  color: #65cff4;
+}
+
+.compareTalkExpert .compareTalkExpert__item2 .compareTalkExpert__Itemcount {
+  background-color: #65cff4;
+}
+
+.compareTalkExpert .compareTalkExpert__item2 .compareTalkExpert__itemText p {
+  color: #65cff4;
+}
+
+.compareTalkExpert .compareTalkExpert__item3 .compareTalkExpert__Itemcount {
+  background-color: #e69af2;
+}
+
+.compareTalkExpert .compareTalkExpert__item3 .compareTalkExpert__itemText p {
+  color: #65cff4;
+}
+
+.collegeList-moreBtn-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2rem 0;
+}
+
+.collegeList-moreBtn-wrap button {
+  padding: 0.6rem 2.5rem;
+  background-color: #003e96;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.collegeList {
+  background-color: whitesmoke;
+  padding: 3rem 0;
+  padding-bottom: 8rem;
+}
+
+.collegeCardRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0.7rem 0;
+}
+
+.collegeCardRow .collegeCardRow__section {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 16.6%;
+          flex: 0 0 16.6%;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionHead {
+  height: 2.6rem;
+  padding: 0 0.1rem;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionHead .collegeCardRow__sectionTitle {
+  border-radius: 0.5rem 0.5rem 0 0;
+  background-color: #a5e8ff;
+  text-transform: uppercase;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 0.75rem;
+  font-weight: BOLD;
+  text-align: center;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionHead .collegeCardRow__sectionTitleWithInfobtn {
+  position: relative;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionHead .collegeCardRow__sectionTitleWithInfobtn .infoBtn {
+  margin-left: 1rem;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody {
+  min-height: 10rem;
+  height: 10rem;
+  width: 100%;
+  background-color: #fff;
+  padding: 0.7rem;
+  padding-right: 0;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody > div {
+  border-right: 0.05rem solid lightgrey;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__university .collegeCardRow__universityTitle {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0.7rem 0;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__university .collegeCardRow__universityTitle img {
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__university .collegeCardRow__universityTitle span {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: #003e96;
+  font-weight: bold;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__university .collegeCardRow__universityRow {
+  margin: 0.7rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__university .collegeCardRow__universityRow img {
+  height: 1.5rem;
+  margin-right: 0.2rem;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__university .collegeCardRow__universityRow span {
+  font-size: 0.7rem;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__university .collegeCardRow__universityRow .collegeCardRow__universityCol6 {
+  margin-right: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__university .collegeCardRow__universityMode {
+  margin: 0.7rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__university .collegeCardRow__universityMode img {
+  height: 1.5rem;
+  margin-right: 0.2rem;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__university .collegeCardRow__universityMode span {
+  font-size: 0.7rem;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__university .collegeCardRow__universityMode .label {
+  color: #347ee7;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__approved {
+  padding-right: 0.7rem;
+  height: 7.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__approved .collegeCardRow__approvedList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__approved .collegeCardRow__approvedList .collegeCardRow__approvedListItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5rem;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__approved .collegeCardRow__approvedList .collegeCardRow__approvedListItem span {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__approved .collegeCardRow__approvedList .collegeCardRow__approvedListItem img {
+  height: 0.8rem;
+  margin: 0.3rem;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__approved .collegeCardRow__naac {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__approved .collegeCardRow__naac h4 {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__approved .collegeCardRow__naac p {
+  margin-top: 0.4rem;
+  font-size: 0.75rem;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__fee {
+  padding-right: 0.7rem;
+  height: 7.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__fee .collegeCardRow__feeBox {
+  text-align: center;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__fee p {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__foreign {
+  padding-right: 0.7rem;
+  height: 7.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__foreign p {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__rank {
+  border: none;
+  padding-right: 0.7rem;
+  height: 7.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__rank .collegeCardRow__rankItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0.5rem 0;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__rank .collegeCardRow__rankCircle {
+  height: 2.5rem;
+  width: 2.5rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #003e96;
+  color: #fff;
+  margin-right: 0.5rem;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__rank .collegeCardRow__rankCircle span {
+  font-size: 0.8rem;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__rank .collegeCardRow__rankText p {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__rating {
+  border: none;
+  height: 100%;
+  overflow-y: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__rating > div {
+  margin-bottom: 0.3rem;
+}
+
+.collegeCardRow .collegeCardRow__section .collegeCardRow__sectionBody .collegeCardRow__rating p {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+
+.collegeCardRow .collegeCardRow__sectionFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.collegeCardRow .collegeCardRow__sectionBody.collegeCardRow__sectionLast {
+  background-color: #a8e8ff57;
+  border-radius: 0 0.2rem 0.2rem 0;
+  border: 0.1rem solid #fff;
+}
+
+.collegeCardRow .collegeCardRow__sectionBtnDetail {
+  background-color: #347ee7;
+}
+
+.collegeCardRow .collegeCardRow__sectionBtnApply {
+  background-color: #20a46c;
+  font-size: 0.7rem;
+}
+
+.collegeCardRow .collegeCardRow__sectionBnCompare {
+  background-color: #003e96;
+}
+
+.collegeCardRow .collegeCardRow__sectionBnCompare--active {
+  background-color: lightgray;
+  color: #003e96;
+}
+
+.collegeCardRow .collegeCardRow__sectionBtn {
+  border-radius: 0 0 0.3rem 0.3rem;
+  font-size: 0.65rem;
+  padding: 0.4rem 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.collegeCardRow .collegeCardRow__sectionBtn img {
+  height: 1.3rem;
+}
+
+.collegeCardRow .collegeCardRow__sectionFooterLast {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.collegeCardCol {
+  margin: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.collegeCardCol .collegeCardCol__main {
+  background-color: #fff;
+  border-radius: 2rem 1rem 1rem 1rem;
+}
+
+.collegeCardCol .collegeCardCol__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.collegeCardCol .collegeCardCol__title h3 {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: #003e96;
+}
+
+.collegeCardCol .collegeCardCol__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.collegeCardCol .collegeCardCol__headLeft {
+  width: 5rem;
+}
+
+.collegeCardCol .collegeCardCol__headRight {
+  padding: 0.8rem;
+}
+
+.collegeCardCol .collegeCardCol__head .collegeCardCol__collegeImgBox {
+  border-radius: 50%;
+  border: 0.2rem solid lightgrey;
+  height: 4.5rem;
+  width: 4.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.collegeCardCol .collegeCardCol__head .collegeCardCol__collegeImgBox img {
+  height: 2rem;
+}
+
+.collegeCardCol .collegeCardCol__head .collegeCardCol__headRow {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.collegeCardCol .collegeCardCol__head .collegeCardCol__headRow .collegeCardCol__headCol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 0.7rem;
+}
+
+.collegeCardCol .collegeCardCol__head .collegeCardCol__headRow .collegeCardCol__headCol img {
+  margin-right: 0.5rem;
+  height: 1.5rem;
+}
+
+.collegeCardCol .collegeCardCol__head .collegeCardCol__headRow .collegeCardCol__headCol span {
+  font-size: 0.7rem;
+}
+
+.collegeCardCol .collegeCardCol__body {
+  padding: 0.7rem 1.3rem;
+  background-color: #eefaff;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__rank {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__rank .collegeCardCol__rankCount {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: #003e96;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  margin-right: 0.7rem;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__rank .collegeCardCol__rankText {
+  font-size: 0.8rem;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__mode {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem 0;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__mode .collegeCardCol__modeImgBox {
+  width: 3.5rem;
+  margin-right: 0.7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__mode .collegeCardCol__modeImgBox img {
+  height: 1.5rem;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__mode .collegeCardCol__modeText {
+  width: 100%;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__mode .collegeCardCol__modeText h3 {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: #347ee7;
+  margin: 0.4rem 0;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__mode .collegeCardCol__modeText p {
+  font-size: 0.7rem;
+  font-weight: light;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__session {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1.5rem 0;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__session .collegeCardCol__sessionImgBox {
+  width: 3.5rem;
+  margin-right: 0.7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__session .collegeCardCol__sessionImgBox img {
+  height: 1.5rem;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__session .collegeCardCol__sessionTextBox {
+  width: 100%;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__session .collegeCardCol__sessionTextBox .collegeCardCol__sessionTextHead {
+  border-bottom: 0.05rem dotted gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__session .collegeCardCol__sessionTextBox .collegeCardCol__sessionTextHead h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: #347ee7;
+  padding: 0.4rem 0;
+  padding-bottom: 0.3rem;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__session .collegeCardCol__sessionTextBox .collegeCardCol__sessionTextp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__session .collegeCardCol__sessionTextBox .collegeCardCol__sessionTextp p {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  padding-top: 0.2rem;
+  font-size: 0.7rem;
+  font-weight: light;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__approved {
+  margin: 1.5rem 0;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__approved .collegeCardCol__approvedHead h3 {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: #347ee7;
+  padding: 0.4rem 0;
+  padding-bottom: 0.4rem;
+  border-bottom: 0.05rem dotted gray;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__approved .collegeCardCol__approvedBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 0.3rem;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__approved .collegeCardCol__approvedBody .collegeCardCol__approvedItem {
+  text-align: center;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__approved .collegeCardCol__approvedBody .collegeCardCol__approvedItem h4 {
+  font-size: 0.7rem;
+  margin: 0.3rem 0;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__approved .collegeCardCol__approvedBody .collegeCardCol__approvedItem span {
+  margin: 0.4rem 0;
+  display: block;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__approved .collegeCardCol__approvedBody .collegeCardCol__approvedItem span img {
+  height: 0.7rem;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__fee .collegeCardCol__sessionImgBox img {
+  height: 2.7rem;
+}
+
+.collegeCardCol .collegeCardCol__body .collegeCardCol__fee p {
+  font-weight: bold;
+}
+
+.collegeCardCol .collegeCardCol__footer {
+  margin: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.collegeCardCol .collegeCardCol__footer .collegeCardCol__moreDetailBtn {
+  background-color: #347ee7;
+  border-radius: 0 0.4rem 0.4rem 0.4rem;
+  margin-right: 1rem;
+}
+
+.collegeCardCol .collegeCardCol__footer .collegeCardCol__applyBtn {
+  background-color: #20a46c;
+  border-radius: 0 0.4rem 0.4rem 0.4rem;
+  text-transform: uppercase;
+}
+
+.collegeCardCol .collegeCardCol__side {
+  width: 3rem;
+}
+
+.collegeCardCol .collegeCardCol__side .collegeCardCol__compareBox {
+  background-color: #20a46c;
+  border-radius: 0 0.3rem 0.3rem 0;
+  margin-top: 8rem;
+}
+
+.collegeCardCol .collegeCardCol__side .collegeCardCol__compareBox .collegeCardCol__inputBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 3rem;
+  border-radius: 0 0.3rem 0 0;
+}
+
+.collegeCardCol .collegeCardCol__side .collegeCardCol__compareBox .collegeCardCol__compareBtn {
+  background-color: #347ee7;
+  border-radius: 0 0.3rem 0.3rem 0;
+  width: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: unset;
+  padding: 0.7rem 0;
+}
+
+.collegeCardCol .collegeCardCol__side .collegeCardCol__compareBox .collegeCardCol__compareBtn img {
+  height: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.collegeCardCol .collegeCardCol__side .collegeCardCol__compareBox .collegeCardCol__compareBtn span {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.courseListDesc .section {
+  margin: 2.5rem 0;
+}
+
+.courseListDesc .section .section-sub ul li {
+  font-size: 0.9rem;
+}
+
+.courseListDesc .section h3 {
+  margin: 1rem 0;
+  font-size: 1.7rem;
+}
+
+.courseListDesc .section h4 {
+  font-size: 1.2rem;
+  margin: 0.8rem 0;
+}
+
+.courseListDesc .section p {
+  font-size: 1rem;
+  color: #535353;
+  line-height: 1.7rem;
+}
+
+.courseListDesc .section ul li {
+  font-size: 1rem;
+  line-height: 1.7rem;
+}
+
+.collegeView .collegeView__headBgBox {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-filter: brightness(40%);
+          filter: brightness(40%);
+}
+
+.collegeView .collegeView__headBgBox img {
+  -webkit-backdrop-filter: brightness(50%);
+          backdrop-filter: brightness(50%);
+  height: 100%;
+  width: 100%;
+}
+
+.collegeView .collegeView__head {
+  position: relative;
+  height: 15rem;
+  padding: 3rem 0;
+  border: 0.05rem solid lightgrey;
+  color: #fff;
+}
+
+.collegeView .collegeView__head .container-fluid {
+  height: 100%;
+}
+
+.collegeView .collegeView__head .collegeView__imgBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+  border-radius: 50%;
+  height: 8rem;
+  width: 8rem;
+  padding: 0.5rem;
+  border: 0.2rem solid #65cff4;
+}
+
+.collegeView .collegeView__head .collegeView__imgBox img {
+  height: 80%;
+}
+
+.collegeView .collegeView__head .collegeView__headTitle {
+  margin: 1rem 0;
+}
+
+.collegeView .collegeView__head .collegeView__headTitle h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.collegeView .collegeView__head .collegeView__headBody .row > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0.3rem 0;
+}
+
+.collegeView .collegeView__head .collegeView__headBody .row > div img {
+  height: 1.3rem;
+  margin-right: 1rem;
+}
+
+.collegeView .collegeView__body {
+  background-color: #f0f0f0;
+  padding-bottom: 3rem;
+}
+
+.collegeView .collegeView__detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 0 0 0.3rem 0.3rem;
+  -webkit-transform: translateY(-3.2rem);
+          transform: translateY(-3.2rem);
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+
+.collegeView .collegeView__detail .collegeView__detailSection {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 14.28%;
+          flex: 0 0 14.28%;
+}
+
+.collegeView .collegeView__detail .collegeView__detailSection .collegeView__detailSectionHeadBox {
+  border-radius: 0.5rem 0.5rem 0 0;
+  border: 0.15rem solid transparent;
+  border-bottom: none;
+  overflow: hidden;
+}
+
+.collegeView .collegeView__detail .collegeView__detailSection .collegeView__detailSectionHeadBox .collegeView__detailSectionHead {
+  height: 3rem;
+  background-color: #a5e8ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.collegeView .collegeView__detail .collegeView__detailSection .collegeView__detailSectionHeadBox .collegeView__detailSectionHead h3 {
+  font-size: 0.8rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.collegeView .collegeView__detail .collegeView__detailSection .collegeView__detailSectionBody {
+  padding: 1rem;
+  height: 9rem;
+  position: relative;
+  background-color: #fff;
+}
+
+.collegeView .collegeView__detail .collegeView__detailSection .collegeView__detailSectionBody:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 1rem;
+  bottom: 1rem;
+  border-right: 0.05rem solid lightgrey;
+}
+
+.collegeView .collegeView__detail .collegeView__detailSection .collegeView__detailSectionBody p {
+  font-size: 0.8rem;
+}
+
+.collegeView .collegeView__detail .collegeView__detailSection .collegeView__detailSectionBody > div {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.collegeView .collegeView__detail .collegeView__detailSection .collegeView__detailSectionBody .collegeView__detailSectionRating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.collegeView .collegeView__detail .collegeView__detailSection .collegeView__detailSectionBody .collegeView__detailSectionRating > div {
+  margin: 0 0.3rem;
+}
+
+.collegeView .collegeView__detail .collegeView__detailSection .collegeView__detailSectionBody .collegeView__detailSectionFee {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.collegeView .collegeView__detail .collegeView__detailSection .collegeView__detailSectionBody .collegeView__detailSectionFee p {
+  margin: 0.5rem 0;
+}
+
+.collegeView .collegeView__detail .collegeView__detailSection .collegeView__detailSectionBody .collegeView__detailSectionFee > div {
+  width: 100%;
+  border-top: 0.05rem dotted darkgray;
+}
+
+.collegeView .collegeView__detail .collegeView__detailSection .collegeView__detailSectionBody .collegeView__detailSectionMagazine .collegeView__detailSectionMagazineItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0.5rem 0;
+}
+
+.collegeView .collegeView__detail .collegeView__detailSection .collegeView__detailSectionBody .collegeView__detailSectionMagazine .collegeView__detailSectionMagazineItem .collegeView__detailSectionMagazineLeft {
+  border-radius: 50%;
+  height: 2.7rem;
+  width: 2.7rem;
+  background-color: #003e96;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 0.5rem;
+  font-size: 0.7rem;
+  padding: 0.3rem;
+}
+
+.collegeView .collegeView__detail .collegeView__detailSection .collegeView__detailSectionBody .collegeView__detailSectionDuration > div {
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.collegeView .collegeView__detail .collegeView__detailSection .collegeView__detailSectionBody .collegeView__detailSectionDuration > div > div {
+  margin: 0.5rem 0;
+  width: 100%;
+  border-top: 0.05rem dotted darkgray;
+}
+
+.collegeView .collegeView__detail .collegeView__detailSection .collegeView__detailSectionBody .collegeView__detailSectionSession {
+  text-align: center;
+}
+
+.collegeView .collegeView__detail .collegeView__detailSection .collegeView__detailSectionBody .collegeView__detailSectionSession > div {
+  margin: 0.5rem 0;
+  width: 100%;
+  border-top: 0.05rem dotted darkgray;
+}
+
+.collegeView .collegeView__detail .collegeView__detailSection .collegeView__detailSectionBody .collegeView__detailSectionNAAC > div {
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.collegeView .collegeView__detail .collegeView__detailSection .collegeView__detailSectionBody .collegeView__detailSectionNAAC > div > div {
+  margin: 0.5rem 0;
+  width: 100%;
+  border-top: 0.05rem dotted darkgray;
+}
+
+.collegeView .collegeView__applyBtnBox {
+  padding: 0.5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 70%;
+}
+
+.collegeView .collegeView__applyBtnBox .collegeView__applyBtn {
+  background-color: #20a46c;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.collegeView .collegeView__aboutBox {
+  margin: 1.5rem 0;
+}
+
+.collegeView .collegeView__aboutBox .collegeView__aboutHead {
+  margin: 1rem 0;
+}
+
+.collegeView .collegeView__aboutBox .collegeView__aboutHead h3 {
+  font-size: 1.1rem;
+}
+
+.collegeView .collegeView__aboutBox .collegeView__aboutText p {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.collegeView .collegeView__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 0.5rem 0 0;
+  padding-left: 4rem;
+  position: relative;
+}
+
+.collegeView .collegeView__list .collegeView__listItemLink {
+  text-decoration: none;
+  color: #000;
+}
+
+.collegeView .collegeView__list .collegeView__listItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  width: 12rem;
+  padding: 0.3rem 1rem;
+  background: #fff;
+  font-size: 0.8rem;
+  min-height: 3.5rem;
+  margin: 0.05rem 0.5rem;
+  border: 0.05rem solid lightgrey;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.collegeView .collegeView__list .collegeView__listItem:hover {
+  background-color: #76a8ec;
+  border-color: #76a8ec;
+  color: #fff;
+  cursor: pointer;
+}
+
+.collegeView .collegeView__list .collegeView__listIcon {
+  position: absolute;
+  content: "";
+  left: 1rem;
+  top: 0.2rem;
+}
+
+.collegeView .collegeView__list .collegeView__listIcon img {
+  height: 2rem;
+}
+
+.accordionC {
+  margin: 0.2rem 0;
+}
+
+.accordionC .accordion__btn {
+  border: none;
+}
+
+.accordionC .accordion__item {
+  margin: 0.2rem 0;
+  margin-bottom: 0.3rem;
+  background: transparent;
+  border: none;
+}
+
+.accordionC .accordion__item .accordion__itemTitleBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.4rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 1rem;
+}
+
+.accordionC .accordion__item .accordion__itemTitleBox .accordion__itemTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.7rem 1.5rem;
+  margin: 0 0.2rem;
+  background: #a5e8ff;
+  border: 0.15rem solid #fff;
+  border-bottom: none;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.accordionC .accordion__item .accordion__itemTitleBox .accordion__itemTitle--active {
+  background-color: #0094c5;
+  color: #fff;
+}
+
+.accordionC .accordion__item .accordion__itemTitleBox .accordion__itemTitle span {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.accordionC .accordion__item .accordion__itemHeadBox {
+  background-color: #fff;
+  padding: 0;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.accordionC .accordion__item .accordion__itemHeadBox .accordion__itemHeadBtn {
+  padding: 0.9rem 0.8rem;
+  border: none;
+  background: transparent;
+  width: 100%;
+  text-align: left;
+  font-size: 0.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.accordionC .accordion__item .accordion__itemBody {
+  padding: 0rem;
+}
+
+.accordionChild-item {
+  margin-bottom: 0.3rem;
+}
+
+.accordionChild-item__head {
+  background-color: #fff;
+  padding: 0;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.accordionChild-item__head-btn {
+  padding: 0.9rem 0.8rem;
+  border: none;
+  background: transparent;
+  width: 100%;
+  text-align: left;
+  font-size: 0.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.accordionChild-item__body {
+  padding: 0;
+}
+
+.aboutUs {
+  background: #e5e5e5;
+}
+
+.aboutUsBanner .aboutUsBanner__textBox {
+  background: #d190e2;
+}
+
+.aboutUsBanner .aboutUsBanner__textBox h2 {
+  padding: 3rem 0;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.aboutUsVision .container {
+  position: relative;
+  padding: 5rem 0;
+}
+
+.aboutUsVision .aboutUsVision__left {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.aboutUsVision .aboutUsVision__left .aboutUsVision__title {
+  color: #347ee7;
+  text-transform: uppercase;
+  margin: 2rem 0;
+}
+
+.aboutUsVision .aboutUsVision__left h2 {
+  color: #347ee7;
+  font-size: 2.5rem;
+}
+
+.aboutUsVision .aboutUsVision__left h2 span {
+  color: #003e96;
+}
+
+.aboutUsVision .aboutUsVision__left p {
+  line-height: 1.9rem;
+  margin: 1.5rem 0;
+}
+
+.aboutUsVision .aboutUsVision__right img {
+  height: 35rem;
+  top: 0rem;
+  right: 0;
+}
+
+.aboutUsMission .container {
+  position: relative;
+}
+
+.aboutUsMission .aboutUsMission__right {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10rem 0;
+  padding-top: 15rem;
+}
+
+.aboutUsMission .aboutUsMission__right h2 {
+  color: #347ee7;
+  font-size: 2.5rem;
+}
+
+.aboutUsMission .aboutUsMission__right h2 span {
+  color: #003e96;
+}
+
+.aboutUsMission .aboutUsMission__right p {
+  line-height: 1.9rem;
+  margin: 1.5rem 0;
+}
+
+.aboutUsMission .aboutUsMission__left img {
+  position: absolute;
+  height: 35rem;
+  top: 3rem;
+  left: 0;
+}
+
+.aboutUsWhatWeDo {
+  padding: 7rem 0;
+  background-repeat: no-repeat;
+  -webkit-transform: translateY(-5rem);
+          transform: translateY(-5rem);
+}
+
+.aboutUsWhatWeDo .aboutUsWhatWeDo__left {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 6rem 0;
+}
+
+.aboutUsWhatWeDo .aboutUsWhatWeDo__left h2 {
+  color: #347ee7;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.aboutUsWhatWeDo .aboutUsWhatWeDo__left h2 span {
+  color: #65cff4;
+}
+
+.aboutUsWhatWeDo .aboutUsWhatWeDo__left p {
+  line-height: 1.9rem;
+  margin: 1.5rem 0;
+  color: #fff;
+  font-weight: light;
+}
+
+.aboutUsWhatWeDo .aboutUsWhatWeDo__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.aboutUsWhatWeDo .aboutUsWhatWeDo__right img {
+  height: 70%;
+}
+
+.courseDetail .courseDetail__head {
+  position: relative;
+  height: 16.5rem;
+  padding: 3rem 0;
+  padding-bottom: 4rem;
+  border: 0.05rem solid lightgrey;
+  color: #fff;
+}
+
+.courseDetail .courseDetail__head .container-fluid {
+  height: 100%;
+}
+
+.courseDetail .courseDetail__head .courseDetail__headBgBox {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-filter: brightness(40%);
+          filter: brightness(40%);
+}
+
+.courseDetail .courseDetail__head .courseDetail__headBgBox img {
+  -webkit-backdrop-filter: brightness(50%);
+          backdrop-filter: brightness(50%);
+  height: 100%;
+  width: 100%;
+}
+
+.courseDetail .courseDetail__head .courseDetail__imgBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+  border-radius: 50%;
+  height: 8rem;
+  width: 8rem;
+  padding: 0.5rem;
+  border: 0.2rem solid #65cff4;
+}
+
+.courseDetail .courseDetail__head .courseDetail__imgBox img {
+  height: 80%;
+}
+
+.courseDetail .courseDetail__head .courseDetail__headTitle h2 {
+  text-transform: uppercase;
+}
+
+.courseDetail .courseDetail__head .courseDetail__headTitle h2.courseDetail__headTitle-Course {
+  font-size: 2.5rem;
+  margin-bottom: 0.7rem;
+}
+
+.courseDetail .courseDetail__head .courseDetail__headTitle h2.courseDetail__headTitle-College {
+  font-size: 1.2rem;
+}
+
+.courseDetail .courseDetail__head .courseDetail__headBody .row > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0.3rem 0;
+}
+
+.courseDetail .courseDetail__head .courseDetail__headBody .row > div img {
+  height: 1.3rem;
+  margin-right: 1rem;
+}
+
+.courseDetail .courseDetail__body {
+  background-color: #f0f0f0;
+  width: 100%;
+  height: 100%;
+}
+
+.courseDetail .courseDetail__detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 0 0 0.3rem 0.3rem;
+  -webkit-transform: translateY(-3.2rem);
+          transform: translateY(-3.2rem);
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+
+.courseDetail .courseDetail__detail .courseDetail__detailSection {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 14.28%;
+          flex: 0 0 14.28%;
+}
+
+.courseDetail .courseDetail__detail .courseDetail__detailSection .courseDetail__detailSectionHeadBox {
+  border-radius: 0.5rem 0.5rem 0 0;
+  border: 0.15rem solid transparent;
+  border-bottom: none;
+  overflow: hidden;
+}
+
+.courseDetail .courseDetail__detail .courseDetail__detailSection .courseDetail__detailSectionHeadBox .courseDetail__detailSectionHead {
+  height: 3rem;
+  background-color: #a5e8ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.courseDetail .courseDetail__detail .courseDetail__detailSection .courseDetail__detailSectionHeadBox .courseDetail__detailSectionHead h3 {
+  font-size: 0.8rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.courseDetail .courseDetail__detail .courseDetail__detailSection .courseDetail__detailSectionBody {
+  padding: 1rem;
+  height: 9rem;
+  position: relative;
+  background-color: #fff;
+}
+
+.courseDetail .courseDetail__detail .courseDetail__detailSection .courseDetail__detailSectionBody:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 1rem;
+  bottom: 1rem;
+  border-right: 0.05rem solid lightgrey;
+}
+
+.courseDetail .courseDetail__detail .courseDetail__detailSection .courseDetail__detailSectionBody p {
+  font-size: 0.8rem;
+}
+
+.courseDetail .courseDetail__detail .courseDetail__detailSection .courseDetail__detailSectionBody > div {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.courseDetail .courseDetail__detail .courseDetail__detailSection .courseDetail__detailSectionBody .courseDetail__detailSectionRating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.courseDetail .courseDetail__detail .courseDetail__detailSection .courseDetail__detailSectionBody .courseDetail__detailSectionRating > div {
+  margin: 0 0.3rem;
+}
+
+.courseDetail .courseDetail__detail .courseDetail__detailSection .courseDetail__detailSectionBody .courseDetail__detailSectionFee {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.courseDetail .courseDetail__detail .courseDetail__detailSection .courseDetail__detailSectionBody .courseDetail__detailSectionFee p {
+  margin: 0.5rem 0;
+}
+
+.courseDetail .courseDetail__detail .courseDetail__detailSection .courseDetail__detailSectionBody .courseDetail__detailSectionFee > div {
+  width: 100%;
+  border-top: 0.05rem dotted darkgray;
+}
+
+.courseDetail .courseDetail__detail .courseDetail__detailSection .courseDetail__detailSectionBody .courseDetail__detailSectionMagazine .courseDetail__detailSectionMagazineItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0.5rem 0;
+}
+
+.courseDetail .courseDetail__detail .courseDetail__detailSection .courseDetail__detailSectionBody .courseDetail__detailSectionMagazine .courseDetail__detailSectionMagazineItem .courseDetail__detailSectionMagazineLeft {
+  border-radius: 50%;
+  height: 2.7rem;
+  width: 2.7rem;
+  background-color: #003e96;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 0.5rem;
+  font-size: 0.7rem;
+  padding: 0.3rem;
+}
+
+.courseDetail .courseDetail__detail .courseDetail__detailSection .courseDetail__detailSectionBody .courseDetail__detailSectionDuration > div {
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.courseDetail .courseDetail__detail .courseDetail__detailSection .courseDetail__detailSectionBody .courseDetail__detailSectionDuration > div > div {
+  margin: 0.5rem 0;
+  width: 100%;
+  border-top: 0.05rem dotted darkgray;
+}
+
+.courseDetail .courseDetail__detail .courseDetail__detailSection .courseDetail__detailSectionBody .courseDetail__detailSectionSession {
+  text-align: center;
+}
+
+.courseDetail .courseDetail__detail .courseDetail__detailSection .courseDetail__detailSectionBody .courseDetail__detailSectionSession > div {
+  margin: 0.5rem 0;
+  width: 100%;
+  border-top: 0.05rem dotted darkgray;
+}
+
+.courseDetail .courseDetail__detail .courseDetail__detailSection .courseDetail__detailSectionBody .courseDetail__detailSectionNAAC > div {
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.courseDetail .courseDetail__detail .courseDetail__detailSection .courseDetail__detailSectionBody .courseDetail__detailSectionNAAC > div > div {
+  margin: 0.5rem 0;
+  width: 100%;
+  border-top: 0.05rem dotted darkgray;
+}
+
+.courseDetail .courseDetail__detail .courseDetail__detailSection .courseDetail__detailSectionBody .courseDetail__detailSectionNAAC .courseDetail__applyBtnBox {
+  padding: 0.5rem 0;
+}
+
+.courseDetail .courseDetail__detail .courseDetail__detailSection .courseDetail__detailSectionBody .courseDetail__detailSectionNAAC .courseDetail__applyBtnBox .courseDetail__applyBtn {
+  background-color: #20a46c;
+  padding: 0.3rem 1rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.courseDetail .courseDetail__aboutBox {
+  margin: 1.5rem 0;
+}
+
+.courseDetail .courseDetail__aboutBox .courseDetail__aboutHead {
+  margin: 1rem 0;
+}
+
+.courseDetail .courseDetail__aboutBox .courseDetail__aboutHead h3 {
+  font-size: 1.1rem;
+}
+
+.courseDetail .courseDetail__aboutBox .courseDetail__aboutText p {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.courseDetail .courseDetail__applyBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 6rem 0;
+  position: relative;
+}
+
+.courseDetail .courseDetail__applyBox .imgBox img {
+  border-radius: 8rem;
+}
+
+.courseDetail .courseDetail__applyBox .col1 {
+  position: absolute;
+  width: 45%;
+}
+
+.courseDetail .courseDetail__applyBox .col2 {
+  border-radius: 3rem;
+  padding: 1.5rem;
+  background-color: #fff;
+}
+
+.courseDetail .courseDetail__applyBox .col2 .courseDetail__applyBoxOptions {
+  padding-left: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.courseDetail .courseDetail__applyBox .col2 .courseDetail__applyBoxOptions .column {
+  text-align: center;
+  padding: 0 0.5rem;
+}
+
+.courseDetail .courseDetail__applyBox .col2 .courseDetail__applyBoxOptions .column h3 {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: #347ee7;
+  line-height: 2rem;
+}
+
+.courseDetail .courseDetail__applyBox .col2 .courseDetail__applyBoxOptions .column p {
+  font-size: 0.7rem;
+}
+
+.courseDetail .courseDetail__applyBox .courseDetail__applyBtn {
+  background-color: #20a46c;
+}
+
+.courseDetail .courseDetail__applyBox .courseDetail__talkExpertBtn {
+  background-color: #003e96;
+}
+
+.courseDetail .courseDetail__applyBox .courseDetail__btn {
+  border-radius: 0 0.4rem 0.4rem 0.4rem;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.8rem;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.courseDetail .courseDetail__subjects {
+  background-color: #fff;
+  padding: 0.5rem 0.7rem;
+  margin-top: 0.2rem;
+  border-radius: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.contactUs .contactUsBanner {
+  background: -webkit-gradient(linear, left top, left bottom, from(#6bacf0), color-stop(52.6%, #c791e2), to(#d190e2));
+  background: linear-gradient(180deg, #6bacf0 0%, #c791e2 52.6%, #d190e2 100%);
+  padding: 5rem 0;
+}
+
+.contactUs .contactUsBanner__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0 3rem;
+}
+
+.contactUs .contactUsBanner__left img {
+  height: 30rem;
+}
+
+.contactUs .contactUsBanner__right {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contactUs .contactUsBanner__right-title {
+  color: #fff;
+  margin: 2rem 0;
+}
+
+.contactUs .contactUsBanner__right-title h2 {
+  text-transform: uppercase;
+}
+
+.contactUs .contactUsBanner__right-detailSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1.5rem 0;
+}
+
+.contactUs .contactUsBanner__right-detailSection * {
+  color: #fff;
+}
+
+.contactUs .contactUsBanner__right-detailSection .imgBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  border: 0.2rem solid orange;
+  height: 6rem;
+  width: 6rem;
+  background-color: #fff;
+  margin-right: 1rem;
+}
+
+.contactUs .contactUsBanner__right-detailSection .imgBox img {
+  height: 2.5rem;
+}
+
+.contactUs .contactUsBanner__right-detailSection .textBox h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 0.7rem;
+}
+
+.contactUs .contactUsBanner__right-detailSection .textBox p {
+  font-size: 1rem;
+}
+
+.applyNow-title {
+  padding: 2rem 0;
+  text-align: right;
+}
+
+.applyNow-title * {
+  color: #000;
+}
+
+.applyNow-title h3 {
+  font-size: 2.5rem;
+  color: #347ee7;
+}
+
+.applyNow-title h3 span {
+  text-transform: uppercase;
+  margin-top: 1.6rem;
+  font-size: 2rem;
+  display: block;
+  color: #347ee7;
+}
+
+.applyNow .applyNowForm__left {
+  height: 100%;
+  padding: 2rem 0;
+  padding-right: 1rem;
+}
+
+.applyNow .applyNowForm__left .content h3 {
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+.applyNow .applyNowForm__left .content p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  line-height: 1.7rem;
+}
+
+.applyNow .applyNowForm__right-title {
+  text-align: right;
+}
+
+.applyNow .applyNowForm__right-title * {
+  color: #000;
+}
+
+.applyNow .applyNowForm__right-title h3 {
+  font-size: 2.5rem;
+  color: #347ee7;
+}
+
+.applyNow .applyNowForm__right-title h3 span {
+  text-transform: uppercase;
+  margin-top: 1rem;
+  font-size: 2.7rem;
+  display: block;
+  color: #347ee7;
+}
+
+.applyNow .applyNowForm__right-formBox {
+  padding: 2rem 0;
+}
+
+.applyNow .applyNowForm__right-formBox .btnBox {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.applyNow .applyNowForm__right-formBox .applyBtn {
+  padding: 0.6rem 4rem;
+  background-color: #347ee7;
+}
+
+.bookAppointment {
+  padding: 5rem 0;
+}
+
+.bookAppointment-title {
+  margin-bottom: 4rem;
+  color: #347ee7;
+}
+
+.bookAppointment-title h3 {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+
+.bookAppointment-body {
+  margin: 2rem 0;
+}
+
+.bookAppointment .btnBox {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.bookAppointment .applyBtn {
+  text-transform: uppercase;
+  padding: 0.6rem 4rem;
+  background-color: #347ee7;
+}
+
+.bookAppointment-text {
+  padding-left: 5rem;
+  padding-right: 2rem;
+}
+
+.bookAppointment-text p {
+  font-size: 0.92rem;
+  color: #3d3d3d;
+}
+
+.bookAppointment-form .form-control {
+  font-size: 0.9rem;
+  padding: 0.7rem 1rem;
+  background-color: whitesmoke;
+  border: none;
+}
+/*# sourceMappingURL=global.css.map */

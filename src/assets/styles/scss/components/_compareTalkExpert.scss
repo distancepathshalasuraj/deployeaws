@@ -1,0 +1,66 @@
+.compareTalkExpert {
+    background-color: #003e96;
+    padding: 3rem 0;
+    .compareTalkExpert__title {
+        margin-bottom: 2rem;
+        text-align: center;
+        h2 {
+            text-transform: uppercase;
+            color: #fff;
+            position: relative;
+        }
+    }
+    .compareTalkExpert__item {
+        display: flex;
+        align-items: center;
+        .compareTalkExpert__Itemcount {
+            padding: 1.2rem;
+            border-radius: 50%;
+            height: 4rem;
+            width: 4rem;
+            background-color: #e69af2;
+            margin-right: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p {
+                font-size: 2rem;
+            }
+        }
+        .compareTalkExpert__itemText {
+            p {
+                font-size: 1.8rem;
+            }
+        }
+    }
+    .compareTalkExpert__item1 {
+        .compareTalkExpert__Itemcount {
+            background-color: #e69af2;
+        }
+        .compareTalkExpert__itemText {
+            p {
+                color: #65cff4;
+            }
+        }
+    }
+    .compareTalkExpert__item2 {
+        .compareTalkExpert__Itemcount {
+            background-color: #65cff4;
+        }
+        .compareTalkExpert__itemText {
+            p {
+                color: #65cff4;
+            }
+        }
+    }
+    .compareTalkExpert__item3 {
+        .compareTalkExpert__Itemcount {
+            background-color: #e69af2;
+        }
+        .compareTalkExpert__itemText {
+            p {
+                color: #65cff4;
+            }
+        }
+    }
+}

@@ -1,0 +1,409 @@
+.compareSelect {
+    background-color: rgb(240, 240, 240);
+    padding: 3rem 0;
+    &__title {
+        margin-bottom: 1.5rem;
+        p {
+            font-weight: light;
+        }
+    }
+    // boxs
+    .compareSelect__boxs {
+        padding-left: 12%;
+        margin-bottom: 2rem;
+    }
+    .compareSelect__footer {
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .compareSelect__startBox {
+        margin: 2rem 0;
+    }
+    .compareSelect__start {
+        position: relative;
+        p {
+            position: absolute;
+            left: 0.5rem;
+            bottom: 2.5rem;
+        }
+    }
+    .compareSelect__blank {
+        height: 50vh;
+    }
+}
+
+.compareSelectBox {
+    background-color: #fff;
+    border-radius: 3rem 1rem 1rem 1rem;
+    box-shadow: 0 0 1rem 0 lightgray;
+    height: 16rem;
+    // width: 90%;
+    // padding: 1.5rem;
+    // width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+    position: relative;
+    // overflow: hidden;
+    .compareSelectBox__addBtnBox {
+        position: absolute;
+        top: -0.5rem;
+    }
+    .compareSelectBox__top {
+        padding: 1.5rem;
+        p {
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+    }
+    .compareSelectBox__low {
+        padding: 1.5rem;
+        p {
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+    }
+    .compareSelectBox__removeBtnBox {
+        position: absolute;
+        // content: "";
+        top: 0.2rem;
+        right: 0.2rem;
+        .compareSelectBox__removeBtn {
+            background: #eeeeee;
+            border: none;
+            box-shadow: none;
+            border-radius: 50%;
+            height: 1.7rem;
+            width: 1.7rem;
+            font-weight: bold;
+            color: #dc3545;
+            &:hover {
+                background: #e2e2e2;
+            }
+        }
+    }
+    &__top {
+        flex: 0 0 33.3%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+            font-weight: light;
+            font-size: 0.7rem;
+            text-align: center;
+        }
+    }
+    &__mid {
+        flex: 0 0 33.3%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .compareSelectBox__circle {
+            z-index: 1;
+            background-color: #fff;
+            height: 5rem;
+            width: 5rem;
+            border-radius: 50%;
+            border: 0.05rem solid lightgray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            .compareSelectBox__circleText {
+                // position: absolute;
+                // top: 50%;
+                // left: 50%;
+                // transform: translate(-50%, -50%);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+                    height: 2.5rem;
+                }
+                position: relative;
+                p {
+                    position: absolute;
+                    content: "+";
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+        }
+    }
+    &__low {
+        flex: 0 0 33.3%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .compareSelectBox__count {
+            p {
+                font-size: 2.5rem;
+                font-weight: lighter;
+            }
+        }
+        .compareSelectBox__Text {
+            p {
+                font-weight: light;
+                font-size: 0.7rem;
+                text-align: center;
+            }
+        }
+    }
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 50%;
+        width: 100%;
+        border-radius: 3rem 1rem 0rem 0rem;
+        box-shadow: 0 0 1rem 0 lightgrey;
+    }
+}
+
+.compareCollege {
+    background-color: #f0f0f0;
+    padding: 2rem 0;
+}
+
+.visibility-hidden {
+    opacity: 0;
+}
+
+.compareCollege-section {
+    display: flex;
+    width: 100%;
+    margin-bottom: 0.1rem;
+    &__title {
+        width: 12%;
+        border: 0.2rem solid #fff;
+        background-color: rgba(168, 232, 255, 0.34);
+        box-shadow: 0px 6px 30px 2px rgba(0, 0, 0, 0.05);
+        padding: 1.5rem 1rem;
+        border-radius: 0.5rem 0 0 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span {
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            text-align: center;
+            font-weight: 400;
+        }
+    }
+    &__body {
+        width: 88%;
+        display: flex;
+        &-item {
+            width: 25%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 0.3rem;
+            background-color: #fff;
+            border-radius: 0.1rem;
+            box-shadow: 0px 6px 30px 2px rgba(0, 0, 0, 0.05);
+            font-size: 0.8rem;
+        }
+        &-item1 {
+            margin-left: 0;
+        }
+        &-toppest {
+            border-radius: 0.4rem 0.4rem 0 0;
+        }
+    }
+    // college
+}
+
+.collegeTitle {
+    padding: 1.7rem 1rem;
+    position: relative;
+    &-name {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+    &__imgBox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0.5rem;
+        img {
+            height: 2rem;
+        }
+    }
+    &__name {
+        padding: 0.3rem;
+        font-size: 0.8rem;
+        width: 60%;
+    }
+    // other info
+    &-otherInfo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1rem;
+        padding: 0 1rem;
+    }
+    &__infoBox {
+        display: flex;
+        align-items: center;
+    }
+    &__iconBox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0.3rem;
+        img {
+            height: 1.5rem;
+        }
+    }
+    &__iconText {
+        font-size: 0.7rem;
+    }
+    // icon cross
+    .icon__close {
+        position: absolute;
+        right: 0.5rem;
+        top: 0.5rem;
+    }
+}
+
+.collegeMode {
+    font-size: 0.8rem;
+    text-align: center;
+    &__divider {
+        margin: 0.5rem 0;
+        border: 0.05rem dotted darkgray;
+    }
+    &__type {
+        text-transform: uppercase;
+    }
+}
+
+.collegeApproved {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    &__item {
+        text-align: center;
+        padding: 0 0.2rem;
+        &-text {
+            margin-bottom: 0.3rem;
+            display: block;
+        }
+        img {
+            height: 1rem;
+        }
+    }
+}
+
+.collegeFee {
+    font-size: 0.8rem;
+    text-align: center;
+    &__divider {
+        margin: 0.5rem 0;
+        border: 0.05rem dotted darkgray;
+    }
+    &__min {
+        span {
+            color: rgb(99, 197, 99);
+            font-weight: bold;
+        }
+    }
+    &__max {
+        span {
+            color: rgb(19, 95, 194);
+            font-weight: bold;
+        }
+    }
+}
+
+.collegeSession {
+    font-size: 0.8rem;
+    text-align: center;
+    &__divider {
+        margin: 0.5rem 0;
+        border: 0.05rem dotted darkgray;
+    }
+    &__type {
+        // text-transform: uppercase;
+    }
+}
+
+.compareCollege-section-footer {
+    .compareCollege-section__title {
+        visibility: hidden;
+    }
+    .compareCollege-section__body-item {
+        background-color: transparent;
+        box-shadow: none;
+        padding: 0;
+        align-items: unset;
+    }
+    .compareCollege-section-btn {
+        display: block;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        border-radius: 0 0 0.6rem 0.6rem;
+        font-size: 0.9rem;
+        border: none;
+        color: #fff;
+        text-transform: uppercase;
+        cursor: pointer;
+        &__moreDetail {
+            background-color: rgba(52, 126, 231, 1);
+            margin-right: 0.7rem;
+        }
+        &__apply {
+            background-color: rgba(32, 164, 108, 1);
+        }
+    }
+    .compareCollege-section__btns {
+        // width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+}
+
+.compareOther {
+    .compareSelectBox {
+        width: 85%;
+        // height: 95%;
+    }
+    .compareOther-title {
+        text-align: center;
+        padding: 2rem 0;
+        h2 {
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+    }
+    .compareOther-body {
+        margin: 3rem 0;
+    }
+    .compareOtherBtn {
+        color: #fff;
+        background-color: rgba(0, 62, 150, 1);
+        padding: 0rem 2rem;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        img {}
+        span {
+            margin-left: 0.5rem;
+        }
+    }
+    .compareOther-footer {
+        margin: 2rem 0;
+        display: flex;
+        justify-content: center;
+    }
+}

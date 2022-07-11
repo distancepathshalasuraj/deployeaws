@@ -1,0 +1,97 @@
+.homeBanner {
+    background: #e1f1f8;
+    // banner left
+    & &__imgBox {
+        // background-image: url(../../../images/home/banner-image.png);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 4rem;
+    }
+    // icons
+    &__icons {
+        display: flex;
+        margin: 6rem 0;
+        align-items: center;
+        justify-content: center;
+    }
+    &__iconBox-wrap {
+        text-align: center;
+        span {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            margin-top: 0.5rem;
+            display: block;
+            font-weight: 500;
+        }
+    }
+    &__iconBox {
+        padding: 0 1rem;
+        img {
+            height: 5.5rem;
+        }
+    }
+    &__formLeft {
+        background: #347ee7;
+        padding: 3rem;
+        text-transform: uppercase;
+        border-top-left-radius: 4rem;
+        border-bottom-left-radius: 4rem;
+    }
+    &__formRight {
+        padding: 3rem;
+        background-color: #003e96;
+        border-top-right-radius: 6rem;
+        border-bottom-right-radius: 6rem;
+        .form-select {
+            margin: 1rem 0;
+        }
+    }
+    &__textLight {
+        font-size: 2rem;
+        color: #fff;
+        margin-bottom: 0;
+    }
+    &__textDark {
+        font-size: 2rem;
+        color: #101010;
+        margin-bottom: 0;
+    }
+    &__textLight,
+    &__textDark {
+        font-size: 1.65rem;
+    }
+}
+
+.bannerProcessBack {
+    background: #ececec;
+    position: relative;
+    &__img {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        height: 70%;
+        height: 59%;
+        transform: translateY(-64%);
+    }
+    .homeBanner__right {
+        z-index: 1;
+    }
+}
+
+.homeBanner__iconBox {
+    height: 6rem;
+    width: 6rem;
+    border: 0.3rem solid #fff;
+    border-radius: 50%;
+    background-color: lightgray;
+    padding: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0.5rem;
+    img {
+        // height: 3rem;
+        color:#347ee7;
+    }
+}

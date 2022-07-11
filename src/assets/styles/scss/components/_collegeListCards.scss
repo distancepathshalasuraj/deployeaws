@@ -1,0 +1,512 @@
+.collegeList {
+    background-color: rgb(245, 245, 245);
+    padding: 3rem 0;
+    padding-bottom: 8rem;
+}
+
+.collegeCardRow {
+    display: flex;
+    margin: 0.7rem 0;
+    .collegeCardRow__section {
+        flex: 0 0 16.6%;
+        //border: 0.02rem solid lightgrey;
+        // head
+        .collegeCardRow__sectionHead {
+            height: 2.6rem;
+            padding: 0 0.1rem;
+            .collegeCardRow__sectionTitle {
+                border-radius: 0.5rem 0.5rem 0 0;
+                background-color: #a5e8ff;
+                text-transform: uppercase;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 0.75rem;
+                font-weight: BOLD;
+                text-align: center;
+            }
+            .collegeCardRow__sectionTitleWithInfobtn {
+                position: relative;
+                .infoBtn {
+                    margin-left: 1rem;
+                }
+            }
+        }
+        // body
+        .collegeCardRow__sectionBody {
+            min-height: 10rem;
+            height: 10rem;
+            width: 100%;
+            background-color: #fff;
+            padding: 0.7rem;
+            padding-right: 0;
+            >div {
+                border-right: 0.05rem solid lightgrey;
+                // height: 100%;
+            }
+            // university
+            .collegeCardRow__university {
+                .collegeCardRow__universityTitle {
+                    align-items: center;
+                    display: flex;
+                    margin: 0.7rem 0;
+                    img {
+                        height: 2rem;
+                        margin-right: 0.5rem;
+                    }
+                    span {
+                        font-size: 0.7rem;
+                        text-transform: uppercase;
+                        color: #003e96;
+                        font-weight: bold;
+                    }
+                }
+                .collegeCardRow__universityRow {
+                    margin: 0.7rem 0;
+                    display: flex;
+                    align-items: center;
+                    // justify-content: space-between;
+                    img {
+                        height: 1.5rem;
+                        margin-right: 0.2rem;
+                    }
+                    span {
+                        font-size: 0.7rem;
+                    }
+                    .collegeCardRow__universityCol6 {
+                        margin-right: 0.5rem;
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+                .collegeCardRow__universityMode {
+                    margin: 0.7rem 0;
+                    display: flex;
+                    align-items: center;
+                    img {
+                        height: 1.5rem;
+                        margin-right: 0.2rem;
+                    }
+                    span {
+                        font-size: 0.7rem;
+                    }
+                    .label {
+                        color: #347ee7;
+                    }
+                }
+            }
+            // approved by
+            .collegeCardRow__approved {
+                padding-right: 0.7rem;
+                height: 7.5rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .collegeCardRow__approvedList {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .collegeCardRow__approvedListItem {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding: 0.5rem;
+                        span {
+                            font-size: 0.9rem;
+                            font-weight: 500;
+                        }
+                        img {
+                            height: 0.8rem;
+                            margin: 0.3rem;
+                        }
+                    }
+                }
+                .collegeCardRow__naac {
+                    margin-top: 0.5rem;
+                    text-align: center;
+                    h4 {
+                        font-size: 0.8rem;
+                        font-weight: bold;
+                    }
+                    p {
+                        margin-top: 0.4rem;
+                        font-size: 0.75rem;
+                    }
+                }
+            }
+            // fee
+            .collegeCardRow__fee {
+                padding-right: 0.7rem;
+                height: 7.5rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .collegeCardRow__feeBox {
+                    text-align: center;
+                }
+                p {
+                    font-size: 0.8rem;
+                    font-weight: bold;
+                }
+            }
+            // international collabration
+            .collegeCardRow__foreign {
+                padding-right: 0.7rem;
+                height: 7.5rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                p {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    // font-weight: bold;s
+                }
+            }
+            // ranks
+            .collegeCardRow__rank {
+                border: none;
+                padding-right: 0.7rem;
+                height: 7.5rem;
+                display: flex;
+                flex-direction: column;
+                // align-items: center;
+                justify-content: center;
+                .collegeCardRow__rankItem {
+                    display: flex;
+                    align-items: center;
+                    margin: 0.5rem 0;
+                }
+                .collegeCardRow__rankCircle {
+                    height: 2.5rem;
+                    width: 2.5rem;
+                    padding: 0.5rem;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #003e96;
+                    color: #fff;
+                    margin-right: 0.5rem;
+                    span {
+                        font-size: 0.8rem;
+                    }
+                }
+                .collegeCardRow__rankText {
+                    p {
+                        font-size: 0.8rem;
+                        font-weight: 500;
+                    }
+                }
+            }
+            .collegeCardRow__rating {
+                border: none;
+                height: 100%;
+                overflow-y: hidden;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                // justify-content: center;
+                >div {
+                    margin-bottom: 0.3rem;
+                }
+                p {
+                    font-size: 0.7rem;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    .collegeCardRow__sectionFooter {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .collegeCardRow__sectionBody.collegeCardRow__sectionLast {
+        background-color: #a8e8ff57;
+        border-radius: 0 0.2rem 0.2rem 0;
+        border: 0.1rem solid #fff;
+    }
+    .collegeCardRow__sectionBtnDetail {
+        background-color: #347ee7;
+    }
+    .collegeCardRow__sectionBtnApply {
+        background-color: #20a46c;
+        font-size: 0.7rem;
+    }
+    .collegeCardRow__sectionBnCompare {
+        background-color: #003e96;
+    }
+    .collegeCardRow__sectionBnCompare--active {
+        background-color: lightgray;
+        color: #003e96;
+    }
+    .collegeCardRow__sectionBtn {
+        border-radius: 0 0 0.3rem 0.3rem;
+        font-size: 0.65rem;
+        padding: 0.4rem 0.7rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        img {
+            height: 1.3rem;
+        }
+    }
+    .collegeCardRow__sectionFooterLast {
+        justify-content: center;
+    }
+}
+
+.collegeCardCol {
+    margin: 1rem 0;
+    // main card
+    display: flex;
+    .collegeCardCol__main {
+        background-color: #fff;
+        border-radius: 2rem 1rem 1rem 1rem;
+    }
+    // college name
+    .collegeCardCol__title {
+        display: flex;
+        // align-items: center;
+        h3 {
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            color: #003e96;
+        }
+    }
+    // head
+    .collegeCardCol__head {
+        display: flex;
+        // left
+        &Left {
+            width: 5rem;
+        }
+        // right
+        &Right {
+            padding: 0.8rem;
+        }
+        .collegeCardCol__collegeImgBox {
+            border-radius: 50%;
+            // padding: 0.5rem;
+            border: 0.2rem solid lightgrey;
+            height: 4.5rem;
+            width: 4.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                height: 2rem;
+            }
+        }
+        .collegeCardCol__headRow {
+            margin-top: 1rem;
+            display: flex;
+            // align-items: center;
+            .collegeCardCol__headCol {
+                display: flex;
+                align-items: center;
+                img {
+                    margin-right: 0.5rem;
+                    height: 1.5rem;
+                }
+                margin-right: 0.7rem;
+                span {
+                    font-size: 0.7rem;
+                }
+            }
+        }
+    }
+    // body
+    .collegeCardCol__body {
+        padding: 0.7rem 1.3rem;
+        background-color: rgb(238, 250, 255);
+        // rank
+        .collegeCardCol__rank {
+            display: flex;
+            align-items: center;
+            .collegeCardCol__rankCount {
+                height: 3rem;
+                width: 3rem;
+                border-radius: 50%;
+                background-color: #003e96;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #fff;
+                margin-right: 0.7rem;
+            }
+            .collegeCardCol__rankText {
+                font-size: 0.8rem;
+            }
+        }
+        // mode
+        .collegeCardCol__mode {
+            display: flex;
+            align-items: center;
+            margin: 1rem 0;
+            .collegeCardCol__modeImgBox {
+                width: 3.5rem;
+                margin-right: 0.7rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+                    height: 1.5rem;
+                }
+            }
+            .collegeCardCol__modeText {
+                width: 100%;
+                h3 {
+                    font-size: 0.7rem;
+                    text-transform: uppercase;
+                    color: #347ee7;
+                    margin: 0.4rem 0;
+                }
+                p {
+                    font-size: 0.7rem;
+                    font-weight: light;
+                }
+            }
+        }
+        // session
+        .collegeCardCol__session {
+            display: flex;
+            align-items: center;
+            margin: 1.5rem 0;
+            .collegeCardCol__sessionImgBox {
+                width: 3.5rem;
+                margin-right: 0.7rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+                    height: 1.5rem;
+                }
+            }
+            .collegeCardCol__sessionTextBox {
+                width: 100%;
+                .collegeCardCol__sessionTextHead {
+                    border-bottom: 0.05rem dotted gray;
+                    display: flex;
+                    h3 {
+                        display: flex;
+                        flex: 0 0 50%;
+                        align-items: center;
+                        font-size: 0.7rem;
+                        text-transform: uppercase;
+                        color: #347ee7;
+                        padding: 0.4rem 0;
+                        padding-bottom: 0.3rem;
+                    }
+                }
+                .collegeCardCol__sessionTextp {
+                    display: flex;
+                    p {
+                        flex: 0 0 50%;
+                        padding-top: 0.2rem;
+                        font-size: 0.7rem;
+                        font-weight: light;
+                    }
+                }
+            }
+        }
+        // approved by
+        .collegeCardCol__approved {
+            margin: 1.5rem 0;
+            .collegeCardCol__approvedHead {
+                h3 {
+                    font-size: 0.7rem;
+                    text-transform: uppercase;
+                    color: #347ee7;
+                    padding: 0.4rem 0;
+                    padding-bottom: 0.4rem;
+                    border-bottom: 0.05rem dotted gray;
+                }
+            }
+            .collegeCardCol__approvedBody {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-top: 0.3rem;
+                .collegeCardCol__approvedItem {
+                    text-align: center;
+                    h4 {
+                        font-size: 0.7rem;
+                        margin: 0.3rem 0;
+                    }
+                    span {
+                        margin: 0.4rem 0;
+                        display: block;
+                        img {
+                            height: 0.7rem;
+                        }
+                    }
+                }
+            }
+        }
+        .collegeCardCol__fee {
+            .collegeCardCol__sessionImgBox {
+                img {
+                    height: 2.7rem;
+                }
+            }
+            p {
+                font-weight: bold;
+            }
+        }
+    }
+    // footer
+    .collegeCardCol__footer {
+        margin: 1rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .collegeCardCol__moreDetailBtn {
+            background-color: #347ee7;
+            border-radius: 0 0.4rem 0.4rem 0.4rem;
+            margin-right: 1rem;
+        }
+        .collegeCardCol__applyBtn {
+            background-color: #20a46c;
+            border-radius: 0 0.4rem 0.4rem 0.4rem;
+            text-transform: uppercase;
+        }
+    }
+    // card side
+    .collegeCardCol__side {
+        width: 3rem;
+        .collegeCardCol__compareBox {
+            background-color: #20a46c;
+            border-radius: 0 0.3rem 0.3rem 0;
+            margin-top: 8rem;
+            .collegeCardCol__inputBox {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 3rem;
+                border-radius: 0 0.3rem 0 0;
+            }
+            .collegeCardCol__compareBtn {
+                background-color: #347ee7;
+                border-radius: 0 0.3rem 0.3rem 0;
+                width: 3rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: unset;
+                padding: 0.7rem 0;
+                img {
+                    height: 1.5rem;
+                    margin-bottom: 0.5rem;
+                }
+                span {
+                    writing-mode: vertical-rl;
+                    text-orientation: upright;
+                    text-transform: uppercase;
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+}

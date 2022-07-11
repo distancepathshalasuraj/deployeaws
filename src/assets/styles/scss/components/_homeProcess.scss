@@ -1,0 +1,109 @@
+.homeProcess {
+    &__title {
+        margin: 4rem 0;
+        text-align: center;
+        h2 {
+            text-transform: uppercase;
+            color: #347ee7;
+        }
+        &Dark {
+            color: #101010;
+        }
+    }
+    //  cards
+    .homeProcess__cards {
+        display: flex;
+        align-items: flex-end;
+        margin: 2rem 0;
+    }
+    .homeProcess__card {
+        flex: 0 0 20%;
+        padding: 1.5rem;
+        .homeProcess__card-title {
+            h3 {
+                font-size: 1.3rem;
+                margin: 0.7rem 0;
+                text-transform: uppercase;
+                color: rgba(52, 126, 231, 1);
+                font-weight: 600;
+            }
+        }
+        .homeProcess__cardContent {
+            border-radius: 3rem 4rem 3rem 3rem;
+            overflow: hidden;
+            display: flex;
+            background: #fff;
+            .homeProcess__cardHead {
+                min-width: 2.5rem;
+                background: #76a8ec;
+                color: #fff;
+                writing-mode: vertical-rl;
+                text-orientation: upright;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-transform: uppercase;
+                padding: 1rem 0;
+                h3 {
+                    font-size: 0.8rem;
+                }
+            }
+            .homeProcess__cardBody {
+                padding: 1rem 1.5rem 0rem 0.5rem;
+                color: darkgray;
+                height: 15rem;
+                min-height: 15rem;
+                p {
+                    font-size: 0.85rem;
+                    margin-bottom: 0;
+                    margin-top: 1rem;
+                }
+                position: relative;
+            }
+            .homeProcess__cardImgBox {
+                padding: 0.7rem 0;
+                position: absolute;
+                right: 1rem;
+                bottom: 0;
+            }
+        }
+    }
+    .homeProcess__cardCenter {
+        flex: 0 0 20%;
+        padding: 1.5rem;
+        .homeProcess__cardContent {
+            background: #76a8ec;
+            padding: 2rem 0.7rem;
+            padding-top: 4rem;
+            border-radius: 2.5rem;
+            color: #fff;
+            text-align: center;
+            position: relative;
+            height: 15rem;
+            min-height: 15rem;
+            p {
+                font-size: 0.85rem;
+            }
+            .homeProcess__cardHead {
+                text-transform: uppercase;
+                h3 {
+                    font-size: 1.2rem;
+                }
+                margin: 1.5rem 0;
+            }
+            .homeProcess__cardImgBox {
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                border-radius: 50%;
+                padding: 1.5rem;
+                background: #fff;
+                // height: 2rem;
+                img {
+                    height: 2.5rem;
+                }
+            }
+        }
+    }
+}

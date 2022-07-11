@@ -1,0 +1,129 @@
+.homeCompare {
+    margin: 5rem 0;
+    &__title {
+        margin: 2rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.compareCard {
+    border-radius: 1rem;
+    overflow: hidden;
+    margin: 1rem 0.5rem;
+    box-shadow: 0 0 0.8rem 0.1rem lightgray;
+    &__title {
+        background: #e1f1f8;
+        padding: 1.5rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        min-height: 8rem;
+        overflow: hidden;
+        div {
+            text-align: center;
+            color: #003e96;
+            font-weight: bold;
+        }
+        h3 {
+            font-size: 1.3rem;
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+        }
+        span {
+            font-size: 0.8rem;
+            color: darkgray;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: lighter;
+        }
+    }
+    &__compareCheckbox {
+        position: absolute;
+        top: 0.5rem;
+        right: 0.5rem;
+    }
+    &__body {
+        padding: 0 1rem;
+    }
+    &__rowDetail+&__rowDetail {
+        border-top: 0.05rem dotted darkgray;
+    }
+    &__rowDetail {
+        padding: 0.7rem 0;
+        display: flex;
+        align-items: center;
+        min-height: 4.5rem;
+        overflow: hidden;
+    }
+    &__detailBox {
+        padding-right: 0.5rem;
+        flex: 0 0 50%;
+    }
+    &__detailHead {
+        padding: 0.2rem 0;
+        h4 {
+            margin: 0;
+            text-transform: uppercase;
+            font-size: 1rem;
+            color: #347ee7;
+        }
+    }
+    &__detailDesc {
+        p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: rgb(133, 133, 133);
+            font-weight: lighter;
+        }
+    }
+    &__feeBox {
+        background: #e1f1f8;
+        padding: 0.8rem 0;
+        text-align: center;
+        p {
+            margin: 0;
+            text-transform: uppercase;
+            font-size: 1.1rem;
+        }
+    }
+    &__btns {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__btnBox {
+        display: flex;
+        align-items: center;
+        padding: 0.5rem 0;
+    }
+    &__btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem 1rem;
+        border-radius: 0 0.5rem 0.5rem 0.5rem;
+        color: #fff;
+    }
+    &__compareBtn {
+        background: #003e96;
+        color: #fff;
+    }
+    &__compareBtn--active {
+        background: lightgray;
+        color: #003e96 !important;
+    }
+    &__detailBtn {
+        background: #347ee7;
+    }
+    &__applyBtn {
+        background: #20a46c;
+    }
+    .headDark {
+        color: #000 !important;
+        text-transform: unset;
+    }
+}

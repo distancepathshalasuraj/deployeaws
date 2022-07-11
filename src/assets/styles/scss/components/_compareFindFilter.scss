@@ -1,0 +1,20 @@
+.compareFindFilter {
+    background: #65cff4;
+    // padding: 1.5rem 0;
+    &__title {
+        padding: 1rem 0 0.5rem 0;
+    }
+    &__body {
+        padding: 0.5rem 0 2rem 0;
+        width: 100%;
+    }
+    &__filters {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        >div {
+            // flex: 0 0 33%;
+            padding-right: 1rem;
+        }
+    }
+}

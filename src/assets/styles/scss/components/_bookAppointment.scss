@@ -1,0 +1,43 @@
+.bookAppointment {
+    padding: 5rem 0;
+    &-title {
+        margin-bottom: 4rem;
+        h3 {
+            font-size: 2.5rem;
+            line-height: 3.5rem;
+        }
+        color: rgba(52, 126, 231, 1);
+    }
+    &-body {
+        margin: 2rem 0;
+    }
+    .btnBox {
+        padding: 1rem 0;
+        text-align: center;
+    }
+    .applyBtn {
+        text-transform: uppercase;
+        padding: 0.6rem 4rem;
+        background-color: rgba(52, 126, 231, 1);
+    }
+    &-text {
+        padding-left: 5rem;
+        padding-right: 2rem;
+        p {
+            font-size: 0.92rem;
+            color: #3d3d3d;
+        }
+    }
+    &-form {
+        // padding-right: 3rem;
+        .form-control {
+            font-size: 0.9rem;
+            padding: 0.7rem 1rem;
+            background-color: rgba(245, 245, 245, 1);
+            border: none;
+        }
+    }
+    &-img {
+        img {}
+    }
+}

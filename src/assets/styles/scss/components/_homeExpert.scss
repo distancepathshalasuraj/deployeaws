@@ -1,0 +1,65 @@
+.homeExpert {
+    margin: 5rem 0;
+    .homeExpert__left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .homeExpert__imgBox {
+        img {
+            height: 28rem;
+        }
+    }
+    &__Right {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+        height: 100%;
+    }
+    &__title {
+        h2 {
+            text-transform: uppercase;
+            font-size: 2rem;
+            span:first-child {
+                color: #003e96;
+            }
+            span:last-child {
+                color: #347ee7;
+            }
+        }
+    }
+    // &__list {}
+    &__listItem {
+        display: flex;
+        align-items: center;
+    }
+    .homeExpert__listItem {
+        padding: 1.5rem 0;
+    }
+    .homeExpert__itemCount {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5rem;
+        border-radius: 50%;
+        height: 5rem;
+        width: 5rem;
+        margin-right: 1.5rem;
+        font-size: 1.5rem;
+    }
+    .homeExpert__itemCount1 {
+        background: #e69af2;
+    }
+    .homeExpert__itemCount2 {
+        background: #65cff4;
+    }
+    .homeExpert__itemCount3 {
+        background: #76a8ec;
+    }
+    .homeExpert__itemText {
+        p {
+            font-size: 1.4rem;
+        }
+    }
+}

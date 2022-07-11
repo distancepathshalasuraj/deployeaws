@@ -1,0 +1,38 @@
+// base
+@import "base/reset";
+@import "base/common";
+//  components
+@import "components/navbar";
+@import "components/footer";
+@import "components/btn";
+@import "components/advanceFilter";
+// home
+@import "components/homeBanner";
+@import "components/homeProcess";
+@import "components/homeCompare";
+@import "components/homeExpert";
+@import "components/homeQuickInterest";
+@import "components/homeKnowExpert";
+@import "components/homeStartEdu";
+@import "components/homeStuSpeak";
+@import "components/homeNewsBlog";
+@import "components/homeCourses";
+@import "components/homeFilterComparison";
+@import "components/homeMobileApp";
+// compare
+@import "components/compareFindFilter";
+@import "components/compareSelect";
+@import "components/compareTalkExpert";
+// college list
+@import "components/collegeList";
+@import "components/collegeListCards";
+@import "components/courseListDesc";
+// college detail
+@import "components/collegeView";
+// about us
+@import "components/aboutUs";
+// course detail
+@import "components/courseDetail";
+@import "components/contactUs";
+@import "components/applyNow";
+@import "components/bookAppointment";

@@ -1,0 +1,134 @@
+.aboutUs {
+    background: #e5e5e5;
+}
+
+.aboutUsBanner {
+    .aboutUsBanner__imgBox {
+        // height: 60vh;
+    }
+    .aboutUsBanner__textBox {
+        background: #d190e2;
+        // transform: translateY(-1rem);
+        h2 {
+            padding: 3rem 0;
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 2.5rem;
+        }
+    }
+}
+
+.aboutUsVision {
+    .container {
+        position: relative;
+        padding: 5rem 0;
+    }
+    // height: 40rem;
+    .aboutUsVision__left {
+        .aboutUsVision__title {
+            color: #347ee7;
+            text-transform: uppercase;
+            margin: 2rem 0;
+        }
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // transform: translateY(-7rem);
+        h2 {
+            color: #347ee7;
+            font-size: 2.5rem;
+            span {
+                color: #003e96;
+            }
+        }
+        p {
+            // font-weight: lighter;
+            line-height: 1.9rem;
+            margin: 1.5rem 0;
+        }
+    }
+    .aboutUsVision__right {
+        // transform: translateY(-7rem);
+        img {
+            // position: absolute;
+            height: 35rem;
+            top: 0rem;
+            right: 0;
+        }
+    }
+}
+
+.aboutUsMission {
+    // background-image: url("../../../images/aboutus/missionBG.svg");
+    // background-color: #fff;
+    .container {
+        position: relative;
+    }
+    .aboutUsMission__right {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10rem 0;
+        padding-top: 15rem;
+        h2 {
+            color: #347ee7;
+            font-size: 2.5rem;
+            span {
+                color: #003e96;
+            }
+        }
+        p {
+            // font-weight: lighter;
+            line-height: 1.9rem;
+            margin: 1.5rem 0;
+        }
+    }
+    .aboutUsMission__left {
+        img {
+            position: absolute;
+            height: 35rem;
+            top: 3rem;
+            left: 0;
+        }
+    }
+}
+
+.aboutUsWhatWeDo {
+    padding: 7rem 0;
+    // background: #fff;
+    background-repeat: no-repeat;
+    transform: translateY(-5rem);
+    .aboutUsWhatWeDo__left {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 6rem 0;
+        h2 {
+            color: #347ee7;
+            font-size: 2.5rem;
+            text-transform: capitalize;
+            color: #fff;
+            span {
+                color: #65cff4;
+            }
+        }
+        p {
+            // font-weight: lighter;
+            line-height: 1.9rem;
+            margin: 1.5rem 0;
+            color: #fff;
+            font-weight: light;
+        }
+    }
+    .aboutUsWhatWeDo__right {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        img {
+            height: 70%;
+        }
+    }
+}

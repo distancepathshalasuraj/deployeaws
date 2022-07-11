@@ -1,0 +1,165 @@
+.header {
+    .navbar {
+        padding: 0;
+    }
+    .nav-link {
+        padding: 1rem 0.7rem;
+    }
+    //  top bar
+    & &__top {
+        background: #347ee7;
+        * {
+            font-size: 1rem;
+        }
+        .nav-link {
+            color: #65cff4;
+            padding: 1rem 1rem;
+            &:hover {
+                background: #003e96;
+                color: #fff;
+            }
+        }
+        .nav-link.active {
+            background: #003e96;
+            color: #fff;
+        }
+        .header__socials {
+            li {
+                color: #65cff4;
+            }
+        }
+    }
+    & &__socials {
+        ul {
+            display: flex;
+            margin: 0;
+            li {
+                width: 2rem;
+                margin: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+    & a.nav-link {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    // navbar
+    & &__navbar {
+        .nav-link {
+            display: flex;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:hover {
+                background: lightgray;
+            }
+            .nav-link-image {
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 2rem;
+                margin-right: 0.5rem;
+                img {
+                    height: 2rem;
+                }
+            }
+            .nav-link-text {
+                font-size: 0.7rem;
+                color: #000;
+            }
+        }
+        .navbar-nav {
+            display: flex;
+            align-items: center;
+        }
+        .header__divider {
+            height: 3rem;
+            padding: 0 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            span {
+                height: 100%;
+                width: 0.1rem;
+                background: lightgray;
+            }
+        }
+        .header__compareWrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem 0.7rem;
+        }
+        .compareBtn {
+            text-decoration: none;
+            border: none;
+            border-radius: 0;
+            border-bottom-left-radius: 0.4rem;
+            border-top-right-radius: 0.4rem;
+            overflow: hidden;
+            background: #003e96;
+            display: flex;
+            color: #fff;
+            &__text {
+                padding: 0.5rem 0.7rem;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+                    height: 1.5rem;
+                    margin-right: 0.3rem;
+                }
+            }
+            &__count {
+                height: 100%;
+                padding: 0.5rem 0.7rem;
+                border-bottom-left-radius: 0.4rem;
+                background: #347ee7;
+            }
+        }
+    }
+    //brand
+    .brand {
+        height: 3.5rem;
+        margin: 0.5rem 0;
+    }
+    .dropdown-menu {
+        min-width: 15rem;
+        .dropdown-item {
+            border-bottom: 0.01rem solid rgb(235, 235, 235);
+        }
+    }
+}
+
+.mulitilevelDropdown {
+    .dropdown-item {
+        padding: 0.7rem 1rem;
+        font-size: 0.75rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .has-dropdown:after {
+        display: inline-block;
+        margin-left: 0.5em;
+        vertical-align: 0.255em;
+        content: "";
+        border-left: 0.3em solid;
+        border-top: 0.3em solid transparent;
+        border-right: 0;
+        border-bottom: 0.3em solid transparent;
+    }
+    .dropdown-submenu {
+        max-height: 24rem;
+        overflow-y: auto;
+        border-radius: 0;
+    }
+}
