@@ -100,19 +100,19 @@ export default function Header() {
 								</Navbar.Brand>	
 						</div>
 						<div className="top-right-menu">
-						<Nav.Link href="#features">Join Now |</Nav.Link>
-						<Nav.Link href="#features"> Courses | </Nav.Link>
-						<Nav.Link href="#features">Student Login</Nav.Link>
+						<Nav.Link href="#join">Join Now |</Nav.Link>
+						<Nav.Link href="#course"> Courses |</Nav.Link>
+						<Nav.Link href="#student">Student Login</Nav.Link>
 						</div>
 					</Container>
 					</Navbar>
 					</div>
 					{/** ////////end code////// */}
 					<div className="header__navbar">
-						<Navbar expand="lg" className="container">
+						<Navbar> {/* expand="lg" className="container"*/}
 							<Container>
 								<Navbar.Brand href={URLMapping.home.label}>
-									<img src={icon_brand} alt="" className="brand" />
+									<img src={icon_brand} alt="distancepathshala" className="brand" />
 								</Navbar.Brand>
 								<Navbar.Toggle aria-controls="basic-navbar-nav" />
 								<Navbar.Collapse id="basic-navbar-nav">
@@ -164,7 +164,7 @@ export default function Header() {
 										<div className="header__compareWrapper">
 											<Link to={URLMapping.compare.label} className="compareBtn">
 												<span className="compareBtn__text">
-													<img src={icon_comparison} className="img-fluid" alt="" />
+													{/*<img src={icon_comparison} className="img-fluid" alt="" />*/}
 													<span>Compare</span>
 												</span>
 												<span className="compareBtn__count">{compareCollegeArr ? compareCollegeArr.length : 0}</span>
@@ -178,12 +178,8 @@ export default function Header() {
 
 						{/**code replaced by suraj verma for replacing the navigation bar*/}
 						
-						<Navbar expand="lg" className="container">
+						<Navbar >{/*expand="lg" className="container">*/}
 							<Container>
-								
-								
-		
-
 								<Navbar.Toggle aria-controls="basic-navbar-nav" />
 								<Navbar.Collapse id="basic-navbar-nav">
 									<Nav activeKey={location.pathname} className="ms-auto">

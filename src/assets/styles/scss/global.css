@@ -106,7 +106,7 @@ margin-bottom: 19px;
   margin-left: 439px;
   height: 18px;
   color:#FFFFFF;
-  background-color: red;
+
 }
 
 .header .top_strip .header__socials li {
@@ -141,21 +141,91 @@ margin-bottom: 19px;
 .header .top_strip .navbar .container .top-right-menu
 {
   position: absolute;
-  width: 217px;
+  width: 317px;
   height: 18px;
-  
   font-family: 'Poppins',sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 18px;
+  /*line-height: 18px;
   /* identical to box height */
-  margin-left: 1123px;
-  margin-right: 100px;
-  background-color:red;
+  left: 1023px;
+  right: 100px;
+  top:2px;
+/*  background-color:red;*/
   color: #FFFFFF; 
 }
+.header .top_strip .navbar .container .top-right-menu .nav-link{
+  float: left;
+  color: white;
+}
 
+/*  ..............for Mobile View............ */
+@media only screen and (max-width: 600px) {
+  .header .top_strip .navbar .container{
+    height: 66px;
+    background: #212832;
+    width: 100%;
+    } 
+    
+    .header .top_strip span{
+      position: absolute;
+      width: 314px;
+      height: 18px;
+      font-family: "Poppins",sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      color: #FFFFFF;
+      text-align: center;
+      margin-bottom: 45px;
+      }
+
+      .header .top_strip .navbar .container .social_box{
+        position: absolute;
+        margin:auto;
+        height: 14px;
+        color:#FFFFFF;
+        background-color: red;
+      
+      }
+      .header .header__socials ul li {
+        width: 0.8rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-left: 50px;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+                
+                
+            
+      }  
+
+  .header .top_strip .navbar .container .top-right-menu
+{
+  position: absolute;
+  width: 317px;
+  height: 18px;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  /*line-height: 18px;
+  /* identical to box height */
+  left: 123px;
+  right: 100px;
+  top:30px;
+  vertical-align: bottom;
+/*  background-color:red;*/
+  color: #FFFFFF; 
+}
+/* mobile view end */
+}
 /*End*/
 .header .navbar {
   padding: 0;
@@ -233,8 +303,12 @@ margin-bottom: 19px;
 }
 
 .header .header__navbar .nav-link .nav-link-text {
-  font-size: 0.7rem;
   color: #000;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 22px;
 }
 
 .header .header__navbar .navbar-nav {
@@ -277,16 +351,16 @@ margin-bottom: 19px;
       -ms-flex-pack: center;
           justify-content: center;
   padding: 1rem 0.7rem;
+width: 155px;
+height: 25px;
 }
 
 .header .header__navbar .compareBtn {
   text-decoration: none;
   border: none;
-  border-radius: 0;
-  border-bottom-left-radius: 0.4rem;
-  border-top-right-radius: 0.4rem;
+  border-radius: 5px;
+  border: solid #003C92 1px;
   overflow: hidden;
-  background: #003e96;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -298,6 +372,9 @@ margin-bottom: 19px;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -305,6 +382,7 @@ margin-bottom: 19px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+          color: black;
 }
 
 .header .header__navbar .compareBtn__text img {
